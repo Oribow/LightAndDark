@@ -126,7 +126,7 @@ namespace NavData2d.Editor
 
                 if (EditorGUI.EndChangeCheck())
                 {
-                    link.TryRemapPoints(navBuilder.GlobalBuildContainer.prebuildNavData);
+                    link.TryRemapPoints(navBuilder.GlobalBuildContainer.filteredNavData);
                     link.RecalculateJumpArc(navBuilder.GlobalBuildContainer.navAgentSettings);
                     SceneView.RepaintAll();
                 }
@@ -145,7 +145,7 @@ namespace NavData2d.Editor
                 {
                     jumpLinks.Add(new MetaJumpLink());
                 }
-                jumpLinks[jumpLinks.Count - 1].TryRemapPoints(navBuilder.GlobalBuildContainer.prebuildNavData);
+                jumpLinks[jumpLinks.Count - 1].TryRemapPoints(navBuilder.GlobalBuildContainer.filteredNavData);
                 jumpLinks[jumpLinks.Count - 1].RecalculateJumpArc(navBuilder.GlobalBuildContainer.navAgentSettings);
                 SceneView.RepaintAll();
             }
@@ -153,7 +153,7 @@ namespace NavData2d.Editor
 
         public void OnSceneGUI(SceneView sceneView)
         {
-            NavData2DVisualizerWindow.SceneDrawNavData2D(navBuilder.GlobalBuildContainer.prebuildNavData);
+            NavData2DVisualizerWindow.SceneDrawNavData2D(navBuilder.GlobalBuildContainer.filteredNavData);
             MetaJumpLink link;
             for (int iLink = 0; iLink < jumpLinks.Count; iLink++)
             {
@@ -169,7 +169,7 @@ namespace NavData2d.Editor
 
                 if (EditorGUI.EndChangeCheck())
                 {
-                    link.TryRemapPoints(navBuilder.GlobalBuildContainer.prebuildNavData);
+                    link.TryRemapPoints(navBuilder.GlobalBuildContainer.filteredNavData);
                     link.RecalculateJumpArc(navBuilder.GlobalBuildContainer.navAgentSettings);
                 }
             }
@@ -185,6 +185,7 @@ namespace NavData2d.Editor
             foreach (MetaJumpLink jl in jumpLinks)
             {
                 jl.jumpLinkSettings.showDetails = showDetail;
+                jl.TryRemapPoints(navBuilder.GlobalBuildContainer.filteredNavData);
             }
         }
 

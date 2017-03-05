@@ -27,6 +27,8 @@ namespace NavData2d
         public NavNode[] nodes; // sorted by x Value. Min -> Max
         public NavAgentGroundWalkerSettings navAgentSettings;
 
+        
+
         public bool SamplePoint(Vector2 point, out NavPosition navPosition)
         {
             NavNode map_cNavNode;
@@ -159,7 +161,7 @@ namespace NavData2d
         public bool TryFindClosestPointOnContour(Vector2 point, out float distance, out Vector2 nearestPoint, out int nearestEdgeIndex)
         {
             distance = float.MaxValue;
-            nearestEdgeIndex = 0;
+            nearestEdgeIndex = -1;
             nearestPoint = Vector2.zero;
             NavVert cVert = (isClosed) ? verts[verts.Length - 1] : verts[0];
             for (int iEdge = isClosed ? 0 : 1; iEdge < verts.Length; iEdge++)
@@ -168,7 +170,7 @@ namespace NavData2d
                 if (lineSide == 0)
                 {
                     distance = 0;
-                    nearestEdgeIndex = iEdge;
+                    nearestEdgeIndex = iEdge - 1;
                     nearestPoint = point;
                     return true;
                 }
@@ -190,7 +192,7 @@ namespace NavData2d
                 {
                     distance = dis;
                     nearestPoint = AP;
-                    nearestEdgeIndex = iEdge;
+                    nearestEdgeIndex = iEdge - 1;
                 }
                 cVert = verts[iEdge];
             }
@@ -269,7 +271,7 @@ namespace NavData2d
     {
         public Vector2 PointB { get { return pointB; } }
 
-        public DynamicObstruction firstObstruction;
+        public List<DynamicObstruction> dynamicObstructions;
 
         public float angleABC;
         public float slopeAngleBC;
@@ -277,6 +279,8 @@ namespace NavData2d
 
         [SerializeField]
         Vector2 pointB; // a -> b -> c
+        [SerializeField]
+        public Vector2 edgeDir;
 
         public int[] linkIndex;
 
@@ -292,11 +296,27 @@ namespace NavData2d
         {
             this.pointB = point;
         }
+
+        public void AddDynamicObstruction(DynamicObstruction dynamicObstruction)
+        {
+            for (int iObstr = 0; iObstr < dynamicObstructions.Count; iObstr++)
+            {
+                if(dynamicObstructions[iObstr].startPositionAlongPath > dynamicObstruction.startPositionAlongPath)
+                {
+                    dynamicObstructions.Insert(iObstr, dynamicObstruction);
+                    return;
+                }
+            }
+            dynamicObstructions.Add(dynamicObstruction);
+        }
     }
 
     [Serializable]
-    public class DynamicObstruction
+    public abstract class DynamicObstruction
     {
+        public float startPositionAlongPath;
+        public float endPositionAlongPath;
 
+        public abstract bool IsObstructing(Entities.AIEntity aiEntity);
     }
 }

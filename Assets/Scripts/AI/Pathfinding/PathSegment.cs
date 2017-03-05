@@ -19,14 +19,14 @@ public class PathSegment : IPathSegment
     {
         if (start.x > goal.x)
         {
-            xMin = goal.x - 0.1f;
+            xMin = goal.x - 1f;
             xMax = start.x + 1;
             moveDir = -1;
         }
         else
         {
             xMin = start.x - 1;
-            xMax = goal.x + 0.1f;
+            xMax = goal.x + 1f;
             moveDir = 1;
         }
         this.goal = goal;
@@ -66,8 +66,7 @@ public class PathSegment : IPathSegment
 
     public override bool ReachedTarget(Vector2 position)
     {
-        float f = (position - goal).sqrMagnitude;
-        if ((position - goal).sqrMagnitude <= 0.05f)
+        if ((position - goal).sqrMagnitude <= 0.5f)
             return true;
         return false;
     }

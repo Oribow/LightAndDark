@@ -39364,17 +39364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8fac1c072ed26945945e5e42af724ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handlePositions:
-  - handlePosition: {x: -24.609467, y: -24.501785}
-    navPosition:
-      navPoint: {x: -24.609467, y: -25.375}
-      navNodeIndex: 11
-      navVertIndex: 1
-  - handlePosition: {x: 60.892017, y: -24.501785}
-    navPosition:
-      navPoint: {x: 60.892017, y: -25.375}
-      navNodeIndex: 11
-      navVertIndex: 1
+  positions: []
 --- !u!1 &635448344
 GameObject:
   m_ObjectHideFlags: 0

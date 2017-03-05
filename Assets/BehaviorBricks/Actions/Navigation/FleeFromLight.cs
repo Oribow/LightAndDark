@@ -35,6 +35,11 @@ namespace BBUnity.Actions
                 Debug.Log("Marker = null -> shouldn't happen some ref failure");
                 marker = new List<LightMarker>();
                 GlobalLightSensor.Instance.GetDynamicLightAt(entity.transform.position, ref marker);
+                if (marker.Count == 0)
+                {
+                    pathIsFound = false;
+                    return;
+                }
             }
             InitPath();
         }

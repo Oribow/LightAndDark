@@ -29,14 +29,14 @@ public class JumpSegment : IPathSegment
         yMax = link.yMax + 0.1f;
         if (start.x > goal.x)
         {
-            xMin = goal.x - 0.1f;
+            xMin = goal.x - 1f;
             xMax = start.x + 1;
             xVel = -link.xVel;
         }
         else
         {
             xMin = start.x - 1;
-            xMax = goal.x + 0.1f;
+            xMax = goal.x + 1f;
             xVel = link.xVel;
         }
         duration = Mathf.Abs((link.xMax - link.xMin) / xVel);
@@ -64,7 +64,7 @@ public class JumpSegment : IPathSegment
 
     public override bool ReachedTarget(Vector2 position)
     {
-        if ((position - goal).sqrMagnitude <= 0.05f)
+        if ((position - goal).sqrMagnitude <= 0.5f)
             return true;
         return false;
     }

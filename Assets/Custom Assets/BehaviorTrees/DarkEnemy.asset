@@ -14,34 +14,33 @@ MonoBehaviour:
   brickName: Assets/Custom Assets/BehaviorTrees/DarkEnemy.asset
   xml: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<BehaviorBricks xmlns:ref=\"urn:padaone\"
     version=\"1.0\">\r\n  <BehaviorTree id=\"0\" />\r\n  <runtimeInfo>\r\n    <BehaviorTree
-    id=\"0\" guid=\"4f74b52e1f234ba45ab615098a899fa2\" nextId=\"17\">\r\n      <root>\r\n
+    id=\"0\" guid=\"4f74b52e1f234ba45ab615098a899fa2\" nextId=\"28\">\r\n      <root>\r\n
     \       <RepeatDecorator id=\"1\" />\r\n      </root>\r\n      <inputParams>\r\n
     \       <inputValues>\r\n          <entry name=\"AIEntity\" type=\"Entities.AIEntity\"
     isBlackboard=\"False\" />\r\n          <entry name=\"Waypoints\" type=\"NavData2d.NavPositionHolder\"
     isBlackboard=\"False\" />\r\n          <entry name=\"ActingEntity\" type=\"Entities.ActingEntity\"
     isBlackboard=\"False\" />\r\n          <entry name=\"Eye\" type=\"UnityEngine.Transform\"
     isBlackboard=\"False\" />\r\n          <entry name=\"Eye Range\" type=\"System.Single\"
-    isBlackboard=\"False\" value=\"0\" />\r\n          <entry name=\"wait seconds\"
-    type=\"System.Single\" isBlackboard=\"False\" value=\"0.5\" />\r\n          <entry
-    name=\"ShouldWait\" type=\"System.Boolean\" isBlackboard=\"False\" />\r\n        </inputValues>\r\n
-    \     </inputParams>\r\n      <outputParams />\r\n      <localParams>\r\n        <localValues>\r\n
-    \         <entry name=\"SelectableEnemies\" type=\"BehaviorBrick.Conditions.IsNPCInSight+ResizableList`1[[BehaviorBrick.Conditions.IsNPCInSight+VisibleNPCs,
+    isBlackboard=\"False\" value=\"0\" />\r\n        </inputValues>\r\n      </inputParams>\r\n
+    \     <outputParams />\r\n      <localParams>\r\n        <localValues>\r\n          <entry
+    name=\"SelectableEnemies\" type=\"BehaviorBrick.Conditions.IsNPCInSight+ResizableList`1[[BehaviorBrick.Conditions.IsNPCInSight+VisibleNPCs,
     Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]\" isBlackboard=\"False\"
     />\r\n          <entry name=\"LightSource\" type=\"System.Collections.Generic.List`1[[LightSensing.LightMarker,
     Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]\" isBlackboard=\"False\"
     />\r\n          <entry name=\"SelectedEnemy\" type=\"Entities.ActingEntity\" isBlackboard=\"False\"
     />\r\n          <entry name=\"Latest Known Enemy Pos\" type=\"UnityEngine.Vector2\"
-    isBlackboard=\"False\" />\r\n        </localValues>\r\n      </localParams>\r\n
-    \   </BehaviorTree>\r\n    <RepeatDecorator id=\"1\" loops=\"-1\" policy=\"ContinueWhenChildFails\">\r\n
+    isBlackboard=\"False\" />\r\n          <entry name=\"ShouldWait\" type=\"System.Boolean\"
+    isBlackboard=\"False\" value=\"False\" />\r\n          <entry name=\"wait seconds\"
+    type=\"System.Single\" isBlackboard=\"False\" value=\"0.5\" />\r\n          <entry
+    name=\"Override Check\" type=\"System.Boolean\" isBlackboard=\"False\" value=\"False\"
+    />\r\n        </localValues>\r\n      </localParams>\r\n    </BehaviorTree>\r\n
+    \   <RepeatDecorator id=\"1\" loops=\"-1\" policy=\"ContinueWhenChildFails\">\r\n
     \     <child>\r\n        <PrioritySelectorNode id=\"2\" />\r\n      </child>\r\n
     \     <inputParams />\r\n      <outputParams />\r\n      <localParams />\r\n    </RepeatDecorator>\r\n
     \   <PrioritySelectorNode id=\"2\">\r\n      <children>\r\n        <elem>\r\n
     \         <GuardAndNode>\r\n            <guard>\r\n              <ConditionEvalNode
-    id=\"10\" />\r\n            </guard>\r\n            <child>\r\n              <ActionNode
+    id=\"26\" />\r\n            </guard>\r\n            <child>\r\n              <ActionNode
     id=\"3\" />\r\n            </child>\r\n          </GuardAndNode>\r\n        </elem>\r\n
-    \       <elem>\r\n          <GuardAndNode>\r\n            <guard>\r\n              <ConditionEvalNode
-    id=\"14\" />\r\n            </guard>\r\n            <child>\r\n              <SequenceNode
-    id=\"15\" />\r\n            </child>\r\n          </GuardAndNode>\r\n        </elem>\r\n
     \       <elem>\r\n          <GuardAndNode>\r\n            <guard>\r\n              <ConditionEvalNode
     id=\"12\" />\r\n            </guard>\r\n            <child>\r\n              <SequenceNode
     id=\"4\" />\r\n            </child>\r\n          </GuardAndNode>\r\n        </elem>\r\n
@@ -49,7 +48,7 @@ MonoBehaviour:
     id=\"8\" />\r\n            </guard>\r\n            <child>\r\n              <ActionNode
     id=\"7\" />\r\n            </child>\r\n          </GuardAndNode>\r\n        </elem>\r\n
     \     </children>\r\n      <inputParams />\r\n      <outputParams />\r\n      <localParams
-    />\r\n    </PrioritySelectorNode>\r\n    <ConditionEvalNode id=\"10\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\"
+    />\r\n    </PrioritySelectorNode>\r\n    <ConditionEvalNode id=\"26\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\"
     name=\"Perception/IsLightLevelComfortable\">\r\n      <inputParams>\r\n        <inputValues>\r\n
     \         <entry name=\"AIEntity\" type=\"Entities.AIEntity\" isBlackboard=\"True\"
     blackboard=\"AIEntity\" />\r\n          <entry name=\"Inverse\" type=\"System.Boolean\"
@@ -67,24 +66,16 @@ MonoBehaviour:
     Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]\" isBlackboard=\"True\"
     blackboard=\"LightSource\" />\r\n        </inputValues>\r\n      </inputParams>\r\n
     \     <outputParams />\r\n      <localParams />\r\n    </ActionNode>\r\n    <ConditionEvalNode
-    id=\"14\" policy=\"ATOMIC_CHECK\" name=\"Basic/CheckBool\">\r\n      <inputParams>\r\n
-    \       <inputValues>\r\n          <entry name=\"valueA\" type=\"System.Boolean\"
-    isBlackboard=\"False\" value=\"True\" />\r\n          <entry name=\"valueB\" type=\"System.Boolean\"
-    isBlackboard=\"True\" blackboard=\"ShouldWait\" />\r\n        </inputValues>\r\n
-    \     </inputParams>\r\n      <outputParams />\r\n      <localParams />\r\n    </ConditionEvalNode>\r\n
-    \   <SequenceNode id=\"15\">\r\n      <children>\r\n        <elem>\r\n          <ActionNode
-    id=\"13\" />\r\n        </elem>\r\n        <elem>\r\n          <ActionNode id=\"16\"
-    />\r\n        </elem>\r\n      </children>\r\n      <inputParams />\r\n      <outputParams
-    />\r\n      <localParams />\r\n    </SequenceNode>\r\n    <ConditionEvalNode id=\"12\"
-    policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"Perception/IsNPCInSight\">\r\n      <inputParams>\r\n
-    \       <inputValues>\r\n          <entry name=\"ActingEntity\" type=\"Entities.ActingEntity\"
-    isBlackboard=\"True\" blackboard=\"ActingEntity\" />\r\n          <entry name=\"Eye\"
-    type=\"UnityEngine.Transform\" isBlackboard=\"True\" blackboard=\"Eye\" />\r\n
-    \         <entry name=\"Eye Range\" type=\"System.Single\" isBlackboard=\"True\"
-    blackboard=\"Eye Range\" />\r\n          <entry name=\"Required Relationship\"
-    type=\"BehaviorBrick.Conditions.IsNPCInSight+RequiredRelationship\" isBlackboard=\"False\"
-    value=\"Hostile\" />\r\n        </inputValues>\r\n      </inputParams>\r\n      <outputParams>\r\n
-    \       <outputValues>\r\n          <entry name=\"Visible AIs\" type=\"BehaviorBrick.Conditions.IsNPCInSight+ResizableList`1[[BehaviorBrick.Conditions.IsNPCInSight+VisibleNPCs,
+    id=\"12\" policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"Perception/IsNPCInSight\">\r\n
+    \     <inputParams>\r\n        <inputValues>\r\n          <entry name=\"ActingEntity\"
+    type=\"Entities.ActingEntity\" isBlackboard=\"True\" blackboard=\"ActingEntity\"
+    />\r\n          <entry name=\"Eye\" type=\"UnityEngine.Transform\" isBlackboard=\"True\"
+    blackboard=\"Eye\" />\r\n          <entry name=\"Eye Range\" type=\"System.Single\"
+    isBlackboard=\"True\" blackboard=\"Eye Range\" />\r\n          <entry name=\"Required
+    Relationship\" type=\"BehaviorBrick.Conditions.IsNPCInSight+RequiredRelationship\"
+    isBlackboard=\"False\" value=\"Hostile\" />\r\n        </inputValues>\r\n      </inputParams>\r\n
+    \     <outputParams>\r\n        <outputValues>\r\n          <entry name=\"Visible
+    AIs\" type=\"BehaviorBrick.Conditions.IsNPCInSight+ResizableList`1[[BehaviorBrick.Conditions.IsNPCInSight+VisibleNPCs,
     Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]\" isBlackboard=\"True\"
     blackboard=\"SelectableEnemies\" />\r\n        </outputValues>\r\n      </outputParams>\r\n
     \     <localParams />\r\n    </ConditionEvalNode>\r\n    <SequenceNode id=\"4\">\r\n
@@ -98,17 +89,7 @@ MonoBehaviour:
     isBlackboard=\"True\" blackboard=\"AIEntity\" />\r\n          <entry name=\"Waypoints\"
     type=\"NavData2d.NavPositionHolder\" isBlackboard=\"True\" blackboard=\"Waypoints\"
     />\r\n        </inputValues>\r\n      </inputParams>\r\n      <outputParams />\r\n
-    \     <localParams />\r\n    </ActionNode>\r\n    <ActionNode id=\"13\" action=\"Basic/WaitForSeconds\">\r\n
-    \     <inputParams>\r\n        <inputValues>\r\n          <entry name=\"seconds\"
-    type=\"System.Single\" isBlackboard=\"True\" blackboard=\"wait seconds\" />\r\n
-    \       </inputValues>\r\n      </inputParams>\r\n      <outputParams />\r\n      <localParams
-    />\r\n    </ActionNode>\r\n    <ActionNode id=\"16\" action=\"Basic/SetBool\">\r\n
-    \     <inputParams>\r\n        <inputValues>\r\n          <entry name=\"value\"
-    type=\"System.Boolean\" isBlackboard=\"False\" value=\"False\" />\r\n        </inputValues>\r\n
-    \     </inputParams>\r\n      <outputParams>\r\n        <outputValues>\r\n          <entry
-    name=\"var\" type=\"System.Boolean\" isBlackboard=\"True\" blackboard=\"ShouldWait\"
-    />\r\n        </outputValues>\r\n      </outputParams>\r\n      <localParams />\r\n
-    \   </ActionNode>\r\n    <ActionNode id=\"5\" action=\"AIInteraction/EnemySelector\">\r\n
+    \     <localParams />\r\n    </ActionNode>\r\n    <ActionNode id=\"5\" action=\"AIInteraction/EnemySelector\">\r\n
     \     <inputParams>\r\n        <inputValues>\r\n          <entry name=\"SelectableEnemies\"
     type=\"BehaviorBrick.Conditions.IsNPCInSight+ResizableList`1[[BehaviorBrick.Conditions.IsNPCInSight+VisibleNPCs,
     Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]\" isBlackboard=\"True\"
@@ -136,50 +117,36 @@ MonoBehaviour:
     />\r\n          <ActionNode id=\"3\" />\r\n          <SequenceNode id=\"4\" />\r\n
     \         <ActionNode id=\"5\" />\r\n          <ActionNode id=\"6\" />\r\n          <ActionNode
     id=\"7\" />\r\n          <ConditionEvalNode id=\"8\" />\r\n          <ConditionEvalNode
-    id=\"10\" />\r\n          <ConditionEvalNode id=\"12\" />\r\n          <ActionNode
-    id=\"13\" />\r\n          <ConditionEvalNode id=\"14\" />\r\n          <SequenceNode
-    id=\"15\" />\r\n          <ActionNode id=\"16\" />\r\n        </nodes>\r\n      </_nodes>\r\n
-    \     <_selectedNode>\r\n        <ActionNode id=\"3\" />\r\n      </_selectedNode>\r\n
-    \   </BehaviorTree>\r\n    <RepeatDecorator id=\"1\">\r\n      <_data>\r\n        <data
-    selected=\"False\" position=\"437 -42.80005\" name=\"Repeat\" description=\"Repeats
+    id=\"12\" />\r\n          <ConditionEvalNode id=\"26\" />\r\n        </nodes>\r\n
+    \     </_nodes>\r\n    </BehaviorTree>\r\n    <RepeatDecorator id=\"1\">\r\n      <_data>\r\n
+    \       <data selected=\"False\" position=\"543 -2.800049\" name=\"Repeat\" description=\"Repeats
     the execution of its child node\" cardinality=\"1\" hasParent=\"False\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <RepeatDecorator id=\"1\" />\r\n        </data>\r\n      </_data>\r\n
     \   </RepeatDecorator>\r\n    <PrioritySelectorNode id=\"2\">\r\n      <_data>\r\n
-    \       <data selected=\"False\" position=\"435 114\" name=\"Priority Selector\"
+    \       <data selected=\"False\" position=\"601 216\" name=\"Priority Selector\"
     description=\"Executes all its children, starting from the one with the highest
     priority, until one of them is successful\" cardinality=\"-1\" hasParent=\"True\">\r\n
     \         <BehaviorTree id=\"0\" />\r\n          <PrioritySelectorNode id=\"2\"
     />\r\n          <RepeatDecorator id=\"1\" />\r\n        </data>\r\n      </_data>\r\n
-    \   </PrioritySelectorNode>\r\n    <ConditionEvalNode id=\"10\">\r\n      <_data>\r\n
+    \   </PrioritySelectorNode>\r\n    <ConditionEvalNode id=\"26\">\r\n      <_data>\r\n
     \       <data selected=\"False\" position=\"0 0\" name=\"Perception/IsLightLevelComfortable\"
     description=\"Checks if the current experienced light level is comfortable.\"
     cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n
-    \         <ConditionEvalNode id=\"10\" />\r\n          <PrioritySelectorNode id=\"2\"
+    \         <ConditionEvalNode id=\"26\" />\r\n          <PrioritySelectorNode id=\"2\"
     />\r\n        </data>\r\n      </_data>\r\n    </ConditionEvalNode>\r\n    <ActionNode
-    id=\"3\">\r\n      <_data>\r\n        <data selected=\"True\" position=\"6 232\"
-    name=\"FleeFromLight\" description=\"Moves in the oposite direction of the given
-    lightsource\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
+    id=\"3\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"299
+    404.9501\" name=\"FleeFromLight\" description=\"Moves in the oposite direction
+    of the given lightsource\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <ActionNode id=\"3\" />\r\n          <ConditionEvalNode
-    id=\"10\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <ConditionEvalNode
-    id=\"14\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"0 0\"
-    name=\"Basic/CheckBool\" description=\"Checks whether two booleans have the same
-    value\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\"
-    />\r\n          <ConditionEvalNode id=\"14\" />\r\n          <PrioritySelectorNode
+    id=\"26\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <ConditionEvalNode
+    id=\"12\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"0 0\"
+    name=\"Perception/IsNPCInSight\" description=\"Checks whether an npc with a certain
+    relationship is in sight.\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
+    id=\"0\" />\r\n          <ConditionEvalNode id=\"12\" />\r\n          <PrioritySelectorNode
     id=\"2\" />\r\n        </data>\r\n      </_data>\r\n    </ConditionEvalNode>\r\n
-    \   <SequenceNode id=\"15\">\r\n      <_data>\r\n        <data selected=\"False\"
-    position=\"172 330.8\" name=\"Sequence\" description=\"Executes all its children
+    \   <SequenceNode id=\"4\">\r\n      <_data>\r\n        <data selected=\"False\"
+    position=\"542 516.65\" name=\"Sequence\" description=\"Executes all its children
     in sequence until all of them are successful\" cardinality=\"-1\" hasParent=\"True\">\r\n
-    \         <BehaviorTree id=\"0\" />\r\n          <SequenceNode id=\"15\" />\r\n
-    \         <ConditionEvalNode id=\"14\" />\r\n        </data>\r\n      </_data>\r\n
-    \   </SequenceNode>\r\n    <ConditionEvalNode id=\"12\">\r\n      <_data>\r\n
-    \       <data selected=\"False\" position=\"0 0\" name=\"Perception/IsNPCInSight\"
-    description=\"Checks whether an npc with a certain relationship is in sight.\"
-    cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n
-    \         <ConditionEvalNode id=\"12\" />\r\n          <PrioritySelectorNode id=\"2\"
-    />\r\n        </data>\r\n      </_data>\r\n    </ConditionEvalNode>\r\n    <SequenceNode
-    id=\"4\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"360
-    504.65\" name=\"Sequence\" description=\"Executes all its children in sequence
-    until all of them are successful\" cardinality=\"-1\" hasParent=\"True\">\r\n
     \         <BehaviorTree id=\"0\" />\r\n          <SequenceNode id=\"4\" />\r\n
     \         <ConditionEvalNode id=\"12\" />\r\n        </data>\r\n      </_data>\r\n
     \   </SequenceNode>\r\n    <ConditionEvalNode id=\"8\">\r\n      <_data>\r\n        <data
@@ -192,23 +159,14 @@ MonoBehaviour:
     route, starting with the nearest patrol point.\" cardinality=\"0\" hasParent=\"True\">\r\n
     \         <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"7\" />\r\n          <ConditionEvalNode
     id=\"8\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <ActionNode
-    id=\"13\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"105
-    514\" name=\"WaitForSeconds\" description=\"Action that success after a period
-    of time.\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\"
-    />\r\n          <ActionNode id=\"13\" />\r\n          <SequenceNode id=\"15\"
-    />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <ActionNode
-    id=\"16\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"246
-    516.8\" name=\"SetBool\" description=\"Sets a value to a boolean variable\" cardinality=\"0\"
+    id=\"5\">\r\n      <_data>\r\n        <data selected=\"False\" position=\"550
+    656.9501\" name=\"EnemySelector\" description=\"Selects an npc\" cardinality=\"0\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ActionNode
-    id=\"16\" />\r\n          <SequenceNode id=\"15\" />\r\n        </data>\r\n      </_data>\r\n
-    \   </ActionNode>\r\n    <ActionNode id=\"5\">\r\n      <_data>\r\n        <data
-    selected=\"False\" position=\"330 650.9501\" name=\"EnemySelector\" description=\"Selects
-    an npc\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\"
-    />\r\n          <ActionNode id=\"5\" />\r\n          <SequenceNode id=\"4\" />\r\n
-    \       </data>\r\n      </_data>\r\n    </ActionNode>\r\n    <ActionNode id=\"6\">\r\n
-    \     <_data>\r\n        <data selected=\"False\" position=\"473 651.9501\" name=\"Attack\"
-    description=\"Attacks the given enemy\" cardinality=\"0\" hasParent=\"True\">\r\n
-    \         <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"6\" />\r\n          <SequenceNode
-    id=\"4\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
+    id=\"5\" />\r\n          <SequenceNode id=\"4\" />\r\n        </data>\r\n      </_data>\r\n
+    \   </ActionNode>\r\n    <ActionNode id=\"6\">\r\n      <_data>\r\n        <data
+    selected=\"False\" position=\"689 651.9501\" name=\"Attack\" description=\"Attacks
+    the given enemy\" cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree
+    id=\"0\" />\r\n          <ActionNode id=\"6\" />\r\n          <SequenceNode id=\"4\"
+    />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n  </editorInfo>\r\n</BehaviorBricks>"
   subslist: []
   _guid: 4f74b52e1f234ba45ab615098a899fa2

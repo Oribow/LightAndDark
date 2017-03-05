@@ -9,11 +9,13 @@ namespace LightSensing
         static GlobalLightSensor instance;
 
         [SerializeField]
-        LightMarker[] globalLightMarker;
+        List<LightMarker> globalLightMarker;
+        PathPlaner pathPlaner;
 
         void Awake()
         {
             instance = this;
+            pathPlaner = PathPlaner.Instance;
         }
 
         public Color GetDynamicLightAt(Vector2 pos, ref List<LightMarker> touchedMarkers)
@@ -29,6 +31,16 @@ namespace LightSensing
                 }
             }
             return result;
+        }
+
+        public void AddLightMarker(LightMarker lightMarker)
+        {
+            globalLightMarker.Add(lightMarker);
+        }
+
+        public void RemoveLightMarker(LightMarker lightMarker)
+        {
+            globalLightMarker.Add(lightMarker);
         }
     }
 }

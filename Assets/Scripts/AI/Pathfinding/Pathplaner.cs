@@ -70,7 +70,8 @@ public class PathPlaner : MonoBehaviour
         while (openList.Count > 0)
         {
             cNode = openList.Dequeue();
-            if (cNode.navNode == navData.nodes[request.goal.navNodeIndex] && cNode.navVertIndex == request.goal.navVertIndex && IsLineTraversable(request, cNode.StartPoint, request.goal.navPoint, out costMultiplier))
+            DebugExtension.DebugCircle(cNode.NavVert.PointB, Vector3.forward, 0.1f, 1);
+            if (cNode.NavNode == navData.nodes[request.goal.navNodeIndex] && cNode.navVertIndex == request.goal.navVertIndex && IsLineTraversable(request, cNode.StartPoint, request.goal.navPoint, out costMultiplier))
             {
                 goto FoundPath;
             }
@@ -91,7 +92,7 @@ public class PathPlaner : MonoBehaviour
                 }
             }
 
-            if (neighbourRight != -1 && cNode.navNode.verts[neighbourLeft].distanceBC != 0)
+            if (neighbourRight != -1 && cNode.navNode.verts[neighbourRight].distanceBC != 0)
             {
                 if (!IsNodeClosed(cNode.navNode, neighbourRight) && IsLineTraversable(request, cNode.StartPoint, cNode.navNode.verts[neighbourRight].PointB, out costMultiplier))
                 {
@@ -173,7 +174,7 @@ public class PathPlaner : MonoBehaviour
         float costSoFar;
         float costMultiplier = 1;
         Vector2 previousPoint = request.start.navPoint;
-        int forceDirection = (request.threats[0].x - request.start.navPoint.x) > 0 ? 1 : -1;
+        int forceDirection = (request.threats[0].x - request.start.navPoint.x) > 0 ? -1 : 1;
 
         while (openList.Count > 0)
         {
@@ -188,23 +189,29 @@ public class PathPlaner : MonoBehaviour
             cNode.GetNeighbours(out neighbourLeft, out neighbourRight);
 
 
-            if (neighbourLeft != -1 && forceDirection <= 0/*&& cNode.navNode.verts[neighbourLeft].distanceBC != 0*/)
+            if (neighbourLeft != -1 /*&& cNode.navNode.verts[neighbourLeft].distanceBC != 0*/)
             {
-                if (!IsNodeClosed(cNode.navNode, neighbourLeft) && IsLineTraversable(request, cNode.StartPoint, cNode.NavVert.PointB, out costMultiplier))
+                if (forceDirection == 0 || Mathf.Sign(cNode.navNode.verts[neighbourLeft].PointB.x - cNode.StartPoint.x) == forceDirection)
                 {
-                    costSoFar = CalculateDistanceFromThreats(request, cNode.navNode.verts[neighbourLeft].PointB);
-                    IPathNode newNode = new PathNode_Edge(cNode, cNode.navNode, neighbourLeft, false, costSoFar, 0);
-                    openList.Enqueue(newNode, 1 / newNode.costSoFar);
+                    if (!IsNodeClosed(cNode.navNode, neighbourLeft) && IsLineTraversable(request, cNode.StartPoint, cNode.NavVert.PointB, out costMultiplier))
+                    {
+                        costSoFar = CalculateDistanceFromThreats(request, cNode.navNode.verts[neighbourLeft].PointB);
+                        IPathNode newNode = new PathNode_Edge(cNode, cNode.navNode, neighbourLeft, false, costSoFar, 0);
+                        openList.Enqueue(newNode, 1 / newNode.costSoFar);
+                    }
                 }
             }
 
-            if (neighbourRight != -1 && forceDirection >= 0/* && cNode.navNode.verts[neighbourLeft].distanceBC != 0*/)
+            if (neighbourRight != -1/* && cNode.navNode.verts[neighbourLeft].distanceBC != 0*/)
             {
-                if (!IsNodeClosed(cNode.navNode, neighbourRight) && IsLineTraversable(request, cNode.StartPoint, cNode.navNode.verts[neighbourRight].PointB, out costMultiplier))
+                if (forceDirection == 0 || Mathf.Sign(cNode.navNode.verts[neighbourRight].PointB.x - cNode.StartPoint.x) == forceDirection)
                 {
-                    costSoFar = CalculateDistanceFromThreats(request, cNode.navNode.verts[neighbourRight].PointB);
-                    IPathNode newNode = new PathNode_Edge(cNode, cNode.navNode, neighbourRight, true, costSoFar, 0);
-                    openList.Enqueue(newNode, 1 / newNode.costSoFar);
+                    if (!IsNodeClosed(cNode.navNode, neighbourRight) && IsLineTraversable(request, cNode.StartPoint, cNode.navNode.verts[neighbourRight].PointB, out costMultiplier))
+                    {
+                        costSoFar = CalculateDistanceFromThreats(request, cNode.navNode.verts[neighbourRight].PointB);
+                        IPathNode newNode = new PathNode_Edge(cNode, cNode.navNode, neighbourRight, true, costSoFar, 0);
+                        openList.Enqueue(newNode, 1 / newNode.costSoFar);
+                    }
                 }
             }
 
@@ -214,7 +221,7 @@ public class PathPlaner : MonoBehaviour
                 int[] linkIndecies = cNode.NavVert.linkIndex;
                 for (int iLink = 0; iLink < linkIndecies.Length; iLink++)
                 {
-                    
+
                     IOffNodeLink cLink = cNode.navNode.links[linkIndecies[iLink]];
                     if (forceDirection != 0)
                     {
@@ -223,7 +230,7 @@ public class PathPlaner : MonoBehaviour
                     }
                     if (!IsLinkClosed(cLink) && IsLineTraversable(request, cNode.StartPoint, cLink.startPoint, out costMultiplier))
                     {
-                        costSoFar = CalculateDistanceFromThreats(request, cNode.navNode.verts[neighbourRight].PointB);
+                        costSoFar = CalculateDistanceFromThreats(request, cLink.targetPos.navPoint);
                         IPathNode newNode = new PathNode_Link(cNode, navData.nodes[cLink.targetPos.navNodeIndex], cLink.targetPos.navVertIndex, costSoFar, 0, linkIndecies[iLink]);
                         openList.Enqueue(newNode, 1 / newNode.costSoFar);
                         closedLinks.Add(cLink);
@@ -236,26 +243,22 @@ public class PathPlaner : MonoBehaviour
 
         List<IPathSegment> pathSegments = new List<IPathSegment>(50);
         Vector2 prevPoint = cNode.NavVert.PointB;
-        cNode = cNode.parent;
-        if (cNode != null)
+        while (cNode.parent != null)
         {
-            while (cNode.parent != null)
+            if (cNode.GetType() == typeof(PathNode_Edge))
             {
-                if (cNode.GetType() == typeof(PathNode_Edge))
-                {
-                    pathSegments.Add(new PathSegment(cNode.EndPoint, prevPoint, float.MaxValue));
-                    prevPoint = cNode.EndPoint;
-                }
-                else//link
-                {
-                    var linkNode = (PathNode_Link)cNode;
-                    pathSegments.Add(new PathSegment(linkNode.Link.targetPos.navPoint, prevPoint, float.MaxValue));
-                    prevPoint = cNode.EndPoint;
-                    pathSegments.Add(new JumpSegment((JumpLink)linkNode.Link));
-                    prevPoint = linkNode.Link.startPoint;
-                }
-                cNode = cNode.parent;
+                pathSegments.Add(new PathSegment(cNode.EndPoint, prevPoint, float.MaxValue));
+                prevPoint = cNode.EndPoint;
             }
+            else//link
+            {
+                var linkNode = (PathNode_Link)cNode;
+                pathSegments.Add(new PathSegment(linkNode.Link.targetPos.navPoint, prevPoint, float.MaxValue));
+                prevPoint = cNode.EndPoint;
+                pathSegments.Add(new JumpSegment((JumpLink)linkNode.Link));
+                prevPoint = linkNode.Link.startPoint;
+            }
+            cNode = cNode.parent;
         }
         pathSegments.Add(new PathSegment(request.start.navPoint, prevPoint, float.MaxValue));
 
@@ -314,6 +317,8 @@ public class PathPlaner : MonoBehaviour
     {
         for (int i = 0; i < closedNodes.Count; i++)
         {
+            if (closedNodes[i].GetType() == typeof(PathNode_Start))
+                continue;
             if (closedNodes[i].navNode == nn && closedNodes[i].navVertIndex == vertIndex)
                 return true;
         }
@@ -364,7 +369,7 @@ public class PathPlaner : MonoBehaviour
         {
             get
             {
-                if (vertIndexIsIncrementing)
+                if (!vertIndexIsIncrementing)
                 {
                     if (navVertIndex + 1 >= navNode.verts.Length)
                     {
@@ -467,31 +472,36 @@ public class PathPlaner : MonoBehaviour
 
         public override void GetNeighbours(out int neighbourLeft, out int neighbourRight)
         {
-            if (navVertIndex + 1 >= navNode.verts.Length)
+            if (start_point.x < NavVert.PointB.x)
             {
-                if (navNode.isClosed)
+                neighbourRight = navVertIndex;
+                if (navVertIndex + 1 >= navNode.verts.Length)
                 {
-                    neighbourRight = 0;
+                    if (navNode.isClosed)
+                    {
+                        neighbourLeft = 0;
+                    }
+                    else
+                        neighbourLeft = -1;
                 }
                 else
-                    neighbourRight = -1;
+                    neighbourLeft = neighbourRight + 1;
             }
             else
             {
-                neighbourRight = navVertIndex + 1;
-            }
-            if (navVertIndex - 1 < 0)
-            {
-                if (navNode.isClosed)
+                neighbourLeft = navVertIndex;
+                if (navVertIndex + 1 >= navNode.verts.Length)
                 {
-                    neighbourLeft = navNode.verts.Length - 1;
+                    if (navNode.isClosed)
+                    {
+                        neighbourRight = 0;
+                    }
+                    else
+                        neighbourRight = -1;
                 }
                 else
-                    neighbourLeft = -1;
-            }
-            else
-            {
-                neighbourLeft = navVertIndex - 1;
+                    neighbourRight = neighbourLeft + 1;
+
             }
         }
     }

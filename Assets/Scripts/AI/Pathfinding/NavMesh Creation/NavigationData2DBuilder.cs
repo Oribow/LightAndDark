@@ -25,6 +25,7 @@ namespace NavMesh2D.Core
             foreach (ExpandedNode n in expandedTree.headNode.children)
                 HandleMarkableContour(n, navNodes, 1);
             NavNode[] allNN = navNodes.ToArray();
+            PostBuildProcess(allNN);
             navNodes = null;
             dst.nodes = allNN;
         }
@@ -185,6 +186,20 @@ namespace NavMesh2D.Core
                     prevNode = current;
                     current = current.Next;
                 }*/
+            }
+        }
+
+        private void PostBuildProcess(NavNode[] allNN)
+        {
+            foreach (var n in allNN)
+            {
+                for (int iVert = 0; iVert < n.verts.Length - 1; iVert++)
+                {
+                    n.verts[iVert].distanceBC = Vector2.Distance(n.verts[iVert].PointB, n.verts[iVert + 1].PointB);
+                    n.verts[iVert].slopeAngleBC = Vector2.Angle(new Vector2(0, 1), n.verts[iVert + 1].PointB - n.verts[iVert].PointB);
+                    if (iVert > 0)
+                        n.verts[iVert].angleABC = Vector2.Angle(n.verts[iVert - 1].PointB - n.verts[iVert].PointB, n.verts[iVert + 1].PointB - n.verts[iVert].PointB);
+                }
             }
         }
 

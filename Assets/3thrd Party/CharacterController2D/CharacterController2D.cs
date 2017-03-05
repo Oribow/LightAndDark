@@ -559,7 +559,6 @@ namespace CC2D
                     if (i == 0 && handleHorizontalSlope(ref deltaMovement, Vector2.Angle(_raycastHit.normal, Vector2.up), isJumping))
                     {
                         _raycastHitsThisFrame.Add(_raycastHit);
-
                         break;
                     }
 
@@ -607,6 +606,7 @@ namespace CC2D
             // if we can walk on slopes and our angle is small enough we need to move up
             if (angle < slopeLimit)
             {
+                Debug.Log("on slope");
                 // we only need to adjust the deltaMovement if we are not jumping
                 if (!isJumping)
                 {

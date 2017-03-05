@@ -60,8 +60,10 @@ namespace BehaviorBrick.Conditions
                 ae = (ActingEntity)e;
                 if (!HasRequiredRelationship(entity.RelationshipMarker.GetRelationship(ae)))
                     continue;
-                if ((e.transform.position - rayOrigin.position).sqrMagnitude + 1 > sightRangeSquared)
+                if (((Vector2)(e.transform.position - rayOrigin.position)).sqrMagnitude > sightRangeSquared)
+                {
                     continue;
+                }
 
                 RaycastHit2D hit = Physics2D.Raycast(rayOrigin.position, e.transform.position - rayOrigin.position, sightRange);
                 if (hit && hit.collider.gameObject == e.gameObject)

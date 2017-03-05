@@ -3513,19 +3513,19 @@ MonoBehaviour:
         isSolid: 0
       isSolid: 0
   prebuildNavData: {fileID: 114000011826283418}
-  filteredNavData: {fileID: 114000013512301804}
+  filteredNavData: {fileID: 0}
   jumpLinks:
   - worldPointA: {x: -8.687593, y: 26.161562}
     worldPointB: {x: -12.7961445, y: 29.483162}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -8.682219, y: 24.47249}
+      navNodeIndex: 74
+      navVertIndex: 4
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -13.789088, y: 28.479885}
+      navNodeIndex: 61
+      navVertIndex: 0
     jumpArc:
       j: 14.137273
       halfG: 10
@@ -3547,13 +3547,13 @@ MonoBehaviour:
     worldPointB: {x: -25.341694, y: 30.352375}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -30.3531, y: 29.818853}
+      navNodeIndex: 17
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -25.341698, y: 29.809181}
+      navNodeIndex: 61
+      navVertIndex: 1
     jumpArc:
       j: 10.013155
       halfG: 10
@@ -3575,13 +3575,13 @@ MonoBehaviour:
     worldPointB: {x: 6.8447266, y: 28.31582}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 3.2719154, y: 24.471174}
+      navNodeIndex: 74
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 6.924992, y: 28.192131}
+      navNodeIndex: 68
+      navVertIndex: 2
     jumpArc:
       j: 12.399061
       halfG: 10
@@ -3603,13 +3603,13 @@ MonoBehaviour:
     worldPointB: {x: 27.315802, y: 30.343407}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 23.132204, y: 30.246433}
+      navNodeIndex: 68
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 27.398, y: 30.245}
+      navNodeIndex: 40
+      navVertIndex: 0
     jumpArc:
       j: 8.529914
       halfG: 10
@@ -3631,13 +3631,13 @@ MonoBehaviour:
     worldPointB: {x: 38.922485, y: 31.30435}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 33.596, y: 30.245}
+      navNodeIndex: 40
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 38.952473, y: 31.241535}
+      navNodeIndex: 67
+      navVertIndex: 1
     jumpArc:
       j: 11.64316
       halfG: 10
@@ -3655,28 +3655,28 @@ MonoBehaviour:
       showDetails: 0
       showInScene: 1
       showInSceneDetailed: 0
-  - worldPointA: {x: 58.34631, y: 30.194784}
+  - worldPointA: {x: 58.483715, y: 30.373413}
     worldPointB: {x: 64.02873, y: 28.162224}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 58.351463, y: 30.243027}
+      navNodeIndex: 67
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 64.056786, y: 27.973537}
+      navNodeIndex: 86
+      navVertIndex: 0
     jumpArc:
-      j: 9.33091
+      j: 9.421721
       halfG: 10
       v: 5
       doubleG: 40
-      minX: 58.413933
+      minX: 58.351463
       maxX: 64.056786
-      startX: 58.413933
+      startX: 58.351463
       endX: 64.056786
-      minY: -2.206125
-      maxY: 0.54416174
+      minY: -2.2694888
+      maxY: 0.5548052
     isJumpLinkValid: 1
     isBiDirectional: 1
     jumpLinkSettings:
@@ -3687,13 +3687,13 @@ MonoBehaviour:
     worldPointB: {x: 41.70406, y: 20.598564}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 35.699097, y: 20.364508}
+      navNodeIndex: 73
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 41.740574, y: 20.29921}
+      navNodeIndex: 77
+      navVertIndex: 2
     jumpArc:
       j: 12.0289135
       halfG: 10
@@ -3715,13 +3715,13 @@ MonoBehaviour:
     worldPointB: {x: -31.840157, y: 32.57833}
     xSpeedScale: 0.8429685
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -35.57995, y: 33.839}
+      navNodeIndex: 58
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -31.634254, y: 29.820148}
+      navNodeIndex: 17
+      navVertIndex: 0
     jumpArc:
       j: 5.0684357
       halfG: 10
@@ -3743,13 +3743,13 @@ MonoBehaviour:
     worldPointB: {x: -35.73147, y: 27.754976}
     xSpeedScale: 0.76250017
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -38.334415, y: 25.690311}
+      navNodeIndex: 18
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -35.69799, y: 27.718727}
+      navNodeIndex: 17
+      navVertIndex: 2
     jumpArc:
       j: 9.848478
       halfG: 10
@@ -3771,13 +3771,13 @@ MonoBehaviour:
     worldPointB: {x: -39.82986, y: 25.816772}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -43.778, y: 24.459}
+      navNodeIndex: 89
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -39.733536, y: 25.691717}
+      navNodeIndex: 18
+      navVertIndex: 0
     jumpArc:
       j: 9.6128845
       halfG: 10
@@ -3799,13 +3799,13 @@ MonoBehaviour:
     worldPointB: {x: -50.57147, y: 26.630594}
     xSpeedScale: 0.9500002
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -54.382, y: 26.618}
+      navNodeIndex: 39
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -50.073, y: 24.459}
+      navNodeIndex: 89
+      navVertIndex: 0
     jumpArc:
       j: 6.6916103
       halfG: 10
@@ -3827,13 +3827,13 @@ MonoBehaviour:
     worldPointB: {x: -59.478325, y: 26.926651}
     xSpeedScale: 0.73749995
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -62.628, y: 31.865}
+      navNodeIndex: 25
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -59.478325, y: 26.618}
+      navNodeIndex: 39
+      navVertIndex: 0
     jumpArc:
       j: 2.3985307
       halfG: 10
@@ -3855,13 +3855,13 @@ MonoBehaviour:
     worldPointB: {x: -51.088696, y: 18.182491}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -54.223, y: 19.45}
+      navNodeIndex: 99
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -50.943, y: 17.949}
+      navNodeIndex: 56
+      navVertIndex: 0
     jumpArc:
       j: 4.2718854
       halfG: 10
@@ -3883,13 +3883,13 @@ MonoBehaviour:
     worldPointB: {x: -41.885574, y: 15.682033}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -44.723, y: 17.949}
+      navNodeIndex: 56
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -41.885006, y: 15.440231}
+      navNodeIndex: 19
+      navVertIndex: 0
     jumpArc:
       j: 1.256019
       halfG: 10
@@ -3911,13 +3911,13 @@ MonoBehaviour:
     worldPointB: {x: -45.8214, y: 7.5205326}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -49.231167, y: 11.219}
+      navNodeIndex: 64
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -45.808117, y: 7.349086}
+      navNodeIndex: 20
+      navVertIndex: 0
     jumpArc:
       j: 1.1933722
       halfG: 10
@@ -3939,13 +3939,13 @@ MonoBehaviour:
     worldPointB: {x: -55.59928, y: 11.589989}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -59.152, y: 12.24}
+      navNodeIndex: 100
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -55.393, y: 11.219}
+      navNodeIndex: 64
+      navVertIndex: 0
     jumpArc:
       j: 6.1599236
       halfG: 10
@@ -3967,13 +3967,13 @@ MonoBehaviour:
     worldPointB: {x: -64.85849, y: 5.1683416}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -68.86035, y: 7.351}
+      navNodeIndex: 22
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -64.821, y: 5.024}
+      navNodeIndex: 31
+      navVertIndex: 0
     jumpArc:
       j: 5.198293
       halfG: 10
@@ -3995,13 +3995,13 @@ MonoBehaviour:
     worldPointB: {x: -55.080433, y: 4.340139}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -58.649, y: 5.024}
+      navNodeIndex: 31
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -55.042, y: 3.959}
+      navNodeIndex: 71
+      navVertIndex: 0
     jumpArc:
       j: 5.7377
       halfG: 10
@@ -4023,13 +4023,13 @@ MonoBehaviour:
     worldPointB: {x: -45.93023, y: 0.7334542}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -48.91687, y: 3.959}
+      navNodeIndex: 71
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -45.06789, y: -0.1378746}
+      navNodeIndex: 21
+      navVertIndex: 1
     jumpArc:
       j: 2.3759336
       halfG: 10
@@ -4051,13 +4051,13 @@ MonoBehaviour:
     worldPointB: {x: -45.240524, y: 7.3848276}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -49.447353, y: 3.959}
+      navNodeIndex: 71
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -45.24051, y: 7.349336}
+      navNodeIndex: 20
+      navVertIndex: 0
     jumpArc:
       j: 12.443236
       halfG: 10
@@ -4079,13 +4079,13 @@ MonoBehaviour:
     worldPointB: {x: -65.37088, y: 12.803726}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -68.812, y: 15.555}
+      navNodeIndex: 23
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -65.324, y: 12.24}
+      navNodeIndex: 100
+      navVertIndex: 0
     jumpArc:
       j: 2.2239885
       halfG: 10
@@ -4107,13 +4107,13 @@ MonoBehaviour:
     worldPointB: {x: -64.612465, y: 19.669245}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -68.914764, y: 15.555}
+      navNodeIndex: 23
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -64.527, y: 19.45}
+      navNodeIndex: 99
+      navVertIndex: 0
     jumpArc:
       j: 13.214008
       halfG: 10
@@ -4135,13 +4135,13 @@ MonoBehaviour:
     worldPointB: {x: -64.47207, y: 5.043918}
     xSpeedScale: 0.7683408
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -67.41383, y: 1.2620157}
+      navNodeIndex: 21
+      navVertIndex: 4
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -64.47207, y: 5.024}
+      navNodeIndex: 31
+      navVertIndex: 0
     jumpArc:
       j: 12.5702915
       halfG: 10
@@ -4163,13 +4163,13 @@ MonoBehaviour:
     worldPointB: {x: -27.318686, y: 17.7044}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.724434, y: 19.563047}
+      navNodeIndex: 16
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -27.418093, y: 17.491783}
+      navNodeIndex: 15
+      navVertIndex: 1
     jumpArc:
       j: 0.12231426
       halfG: 10
@@ -4191,13 +4191,13 @@ MonoBehaviour:
     worldPointB: {x: -25.373728, y: 22.46516}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.971857, y: 19.564152}
+      navNodeIndex: 16
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -25.355568, y: 22.435162}
+      navNodeIndex: 75
+      navVertIndex: 0
     jumpArc:
       j: 12.34223
       halfG: 10
@@ -4219,13 +4219,13 @@ MonoBehaviour:
     worldPointB: {x: -9.103078, y: 24.598867}
     xSpeedScale: 0.7749999
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -11.943382, y: 22.43546}
+      navNodeIndex: 75
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -9.102672, y: 24.471151}
+      navNodeIndex: 74
+      navVertIndex: 4
     jumpArc:
       j: 10.107745
       halfG: 10
@@ -4247,13 +4247,13 @@ MonoBehaviour:
     worldPointB: {x: 5.5128946, y: 22.784641}
     xSpeedScale: 0.7750007
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 2.7595258, y: 24.473494}
+      navNodeIndex: 74
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 5.512863, y: 22.456427}
+      navNodeIndex: 73
+      navVertIndex: 1
     jumpArc:
       j: 4.266592
       halfG: 10
@@ -4275,13 +4275,13 @@ MonoBehaviour:
     worldPointB: {x: 65.93592, y: 29.69379}
     xSpeedScale: 0.3624966
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 64.576065, y: 27.973864}
+      navNodeIndex: 86
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 66.03635, y: 29.654762}
+      navNodeIndex: 85
+      navVertIndex: 0
     jumpArc:
       j: 10.14311
       halfG: 10
@@ -4303,13 +4303,13 @@ MonoBehaviour:
     worldPointB: {x: 64.33926, y: 28.053728}
     xSpeedScale: 0.67500114
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 62.00542, y: 25.984892}
+      navNodeIndex: 87
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 64.33931, y: 27.973715}
+      navNodeIndex: 86
+      navVertIndex: 0
     jumpArc:
       j: 9.791225
       halfG: 10
@@ -4331,13 +4331,13 @@ MonoBehaviour:
     worldPointB: {x: 62.350704, y: 26.297533}
     xSpeedScale: 0.53750014
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 60.570076, y: 23.908524}
+      navNodeIndex: 88
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 62.35228, y: 25.986652}
+      navNodeIndex: 87
+      navVertIndex: 0
     jumpArc:
       j: 9.765199
       halfG: 10
@@ -4359,13 +4359,13 @@ MonoBehaviour:
     worldPointB: {x: 42.168488, y: 14.5308075}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 37.599182, y: 16.282856}
+      navNodeIndex: 72
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 42.16206, y: 12.229137}
+      navNodeIndex: 78
+      navVertIndex: 0
     jumpArc:
       j: 4.683692
       halfG: 10
@@ -4387,13 +4387,13 @@ MonoBehaviour:
     worldPointB: {x: 42.010128, y: 20.318443}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 37.45496, y: 16.28329}
+      navNodeIndex: 72
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 42.010136, y: 20.299303}
+      navNodeIndex: 77
+      navVertIndex: 2
     jumpArc:
       j: 13.5185375
       halfG: 10
@@ -4415,13 +4415,13 @@ MonoBehaviour:
     worldPointB: {x: 41.703957, y: 12.264866}
     xSpeedScale: 0.47499943
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 40.20111, y: 10.136201}
+      navNodeIndex: 79
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 41.72108, y: 12.230369}
+      navNodeIndex: 78
+      navVertIndex: 0
     jumpArc:
       j: 9.672079
       halfG: 10
@@ -4443,13 +4443,13 @@ MonoBehaviour:
     worldPointB: {x: 30.722534, y: 8.648285}
     xSpeedScale: 0.6499998
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 27.532764, y: 12.209078}
+      navNodeIndex: 94
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 30.7232, y: 8.087822}
+      navNodeIndex: 79
+      navVertIndex: 2
     jumpArc:
       j: 5.6185303
       halfG: 10
@@ -4471,13 +4471,13 @@ MonoBehaviour:
     worldPointB: {x: 29.38131, y: 8.312943}
     xSpeedScale: 0.45000017
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 27.758514, y: 6.0899286}
+      navNodeIndex: 80
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 29.516457, y: 8.08639}
+      navNodeIndex: 79
+      navVertIndex: 2
     jumpArc:
       j: 10.368356
       halfG: 10
@@ -4499,13 +4499,13 @@ MonoBehaviour:
     worldPointB: {x: 9.205825, y: 6.165017}
     xSpeedScale: 0.7374999
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 6.2067604, y: 3.0786467}
+      navNodeIndex: 51
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 9.205849, y: 6.08478}
+      navNodeIndex: 80
+      navVertIndex: 0
     jumpArc:
       j: 11.829284
       halfG: 10
@@ -4527,13 +4527,13 @@ MonoBehaviour:
     worldPointB: {x: 0.044403076, y: 3.2066436}
     xSpeedScale: 0.7750002
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -3.007, y: 6.099}
+      navNodeIndex: 38
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 0.044458866, y: 3.0760212}
+      navNodeIndex: 51
+      navVertIndex: 0
     jumpArc:
       j: 4.0358953
       halfG: 10
@@ -4551,28 +4551,28 @@ MonoBehaviour:
       showDetails: 0
       showInScene: 1
       showInSceneDetailed: 0
-  - worldPointA: {x: -18.431372, y: 3.94061}
+  - worldPointA: {x: -20.22283, y: 2.375441}
     worldPointB: {x: -15.254489, y: 6.215248}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -20.386204, y: 2.213709}
+      navNodeIndex: 52
+      navVertIndex: 1
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -15.254489, y: 6.099}
+      navNodeIndex: 38
+      navVertIndex: 0
     jumpArc:
-      j: 14.023751
+      j: 14.048998
       halfG: 10
       v: 5
       doubleG: 40
-      minX: -20.282064
+      minX: -20.386204
       maxX: -15.254489
-      startX: -20.282064
+      startX: -20.386204
       endX: -15.254489
       minY: 0
-      maxY: 1.22916
+      maxY: 1.2335896
     isJumpLinkValid: 1
     isBiDirectional: 1
     jumpLinkSettings:
@@ -4583,13 +4583,13 @@ MonoBehaviour:
     worldPointB: {x: 0.49372387, y: 3.814644}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -2.5615487, y: 1.0526768}
+      navNodeIndex: 52
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 0.4940381, y: 3.076213}
+      navNodeIndex: 51
+      navVertIndex: 0
     jumpArc:
       j: 9.42238
       halfG: 10
@@ -4611,13 +4611,13 @@ MonoBehaviour:
     worldPointB: {x: 8.708119, y: 2.169019}
     xSpeedScale: 0.8750001
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 5.749367, y: 3.0784519}
+      navNodeIndex: 51
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 8.707586, y: 1.0613865}
+      navNodeIndex: 50
+      navVertIndex: 0
     jumpArc:
       j: 3.778543
       halfG: 10
@@ -4639,13 +4639,13 @@ MonoBehaviour:
     worldPointB: {x: -15.285258, y: 12.212703}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -21.316723, y: 15.422134}
+      navNodeIndex: 15
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -15.285256, y: 12.205404}
+      navNodeIndex: 93
+      navVertIndex: 0
     jumpArc:
       j: 9.39631
       halfG: 10
@@ -4663,28 +4663,28 @@ MonoBehaviour:
       showDetails: 0
       showInScene: 1
       showInSceneDetailed: 0
-  - worldPointA: {x: -30.630346, y: 1.4406149}
+  - worldPointA: {x: -32.520744, y: 0.009312034}
     worldPointB: {x: -29.58115, y: 3.1727931}
-    xSpeedScale: 1
+    xSpeedScale: 0.7837497
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.517967, y: -0.7960573}
+      navNodeIndex: 14
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.536537, y: 3.1186934}
+      navNodeIndex: 52
+      navVertIndex: 2
     jumpArc:
-      j: 12.721767
+      j: 12.75361
       halfG: 10
-      v: 5
+      v: 3.9187484
       doubleG: 40
-      minX: -32.141148
+      minX: -32.517967
       maxX: -29.536537
-      startX: -32.141148
+      startX: -32.517967
       endX: -29.536537
       minY: 0
-      maxY: 1.011521
+      maxY: 1.016591
     isJumpLinkValid: 1
     isBiDirectional: 1
     jumpLinkSettings:
@@ -4695,13 +4695,13 @@ MonoBehaviour:
     worldPointB: {x: -29.023397, y: -4.7492127}
     xSpeedScale: 0.7999994
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.345592, y: -0.79546285}
+      navNodeIndex: 14
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.022911, y: -4.979281}
+      navNodeIndex: 41
+      navVertIndex: 0
     jumpArc:
       j: 3.2700365
       halfG: 10
@@ -4723,13 +4723,13 @@ MonoBehaviour:
     worldPointB: {x: -29.49207, y: -4.9396243}
     xSpeedScale: 0.62500036
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.112, y: -8.955}
+      navNodeIndex: 13
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.491983, y: -4.9802732}
+      navNodeIndex: 41
+      navVertIndex: 0
     jumpArc:
       j: 13.124867
       halfG: 10
@@ -4751,13 +4751,13 @@ MonoBehaviour:
     worldPointB: {x: -29.00866, y: -12.922532}
     xSpeedScale: 0.81250066
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.418793, y: -8.955}
+      navNodeIndex: 13
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.007423, y: -13.129679}
+      navNodeIndex: 42
+      navVertIndex: 0
     jumpArc:
       j: 3.4257035
       halfG: 10
@@ -4779,13 +4779,13 @@ MonoBehaviour:
     worldPointB: {x: -29.565228, y: -13.025048}
     xSpeedScale: 0.5624999
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.112, y: -17.157}
+      navNodeIndex: 12
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.53003, y: -13.132794}
+      navNodeIndex: 42
+      navVertIndex: 0
     jumpArc:
       j: 13.563844
       halfG: 10
@@ -4807,13 +4807,13 @@ MonoBehaviour:
     worldPointB: {x: -28.979284, y: -20.788258}
     xSpeedScale: 0.8499992
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.50659, y: -17.157}
+      navNodeIndex: 12
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -28.981949, y: -21.13791}
+      navNodeIndex: 43
+      navVertIndex: 0
     jumpArc:
       j: 3.4931235
       halfG: 10
@@ -4835,13 +4835,13 @@ MonoBehaviour:
     worldPointB: {x: -29.528809, y: -21.108105}
     xSpeedScale: 0.7500004
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.094, y: -23.34}
+      navNodeIndex: 11
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -29.527992, y: -21.13375}
+      navNodeIndex: 43
+      navVertIndex: 0
     jumpArc:
       j: 10.066932
       halfG: 10
@@ -4863,13 +4863,13 @@ MonoBehaviour:
     worldPointB: {x: -30.243244, y: -25.330938}
     xSpeedScale: 0.6874996
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -32.45226, y: -23.34}
+      navNodeIndex: 11
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: -30.243248, y: -25.375}
+      navNodeIndex: 10
+      navVertIndex: 0
     jumpArc:
       j: 3.2595036
       halfG: 10
@@ -4891,13 +4891,13 @@ MonoBehaviour:
     worldPointB: {x: 30.900154, y: -0.92880464}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 25.44718, y: -3.085581}
+      navNodeIndex: 48
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 30.967047, y: -1.0196073}
+      navNodeIndex: 101
+      navVertIndex: 2
     jumpArc:
       j: 12.911132
       halfG: 10
@@ -4919,13 +4919,13 @@ MonoBehaviour:
     worldPointB: {x: 27.138893, y: -4.582264}
     xSpeedScale: 0.625
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 25.096586, y: -3.0862792}
+      navNodeIndex: 48
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 27.13907, y: -5.074192}
+      navNodeIndex: 47
+      navVertIndex: 8
     jumpArc:
       j: 3.494444
       halfG: 10
@@ -4947,13 +4947,13 @@ MonoBehaviour:
     worldPointB: {x: 24.79317, y: -3.0723422}
     xSpeedScale: 0.41249987
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 23.449177, y: -1.029355}
+      navNodeIndex: 49
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 24.7932, y: -3.086883}
+      navNodeIndex: 48
+      navVertIndex: 0
     jumpArc:
       j: 3.3590512
       halfG: 10
@@ -4975,13 +4975,13 @@ MonoBehaviour:
     worldPointB: {x: 23.081072, y: -0.83442897}
     xSpeedScale: 0.5250003
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 21.388111, y: 1.0552983}
+      navNodeIndex: 50
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 23.080284, y: -1.0278535}
+      navNodeIndex: 49
+      navVertIndex: 0
     jumpArc:
       j: 3.2148585
       halfG: 10
@@ -5003,13 +5003,13 @@ MonoBehaviour:
     worldPointB: {x: 63.918728, y: -2.8619778}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 59.51639, y: 1.0492183}
+      navNodeIndex: 101
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 63.967117, y: -3.0304642}
+      navNodeIndex: 46
+      navVertIndex: 0
     jumpArc:
       j: 4.3182855
       halfG: 10
@@ -5031,13 +5031,13 @@ MonoBehaviour:
     worldPointB: {x: 64.48263, y: -1.2718294}
     xSpeedScale: 0.7250007
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 62.017635, y: -5.068368}
+      navNodeIndex: 47
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 64.48197, y: -3.0306554}
+      navNodeIndex: 46
+      navVertIndex: 0
     jumpArc:
       j: 9.7956085
       halfG: 10
@@ -5059,13 +5059,13 @@ MonoBehaviour:
     worldPointB: {x: 70.23112, y: -5.0380826}
     xSpeedScale: 0.61249995
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 68.07987, y: -3.031991}
+      navNodeIndex: 46
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 70.23109, y: -5.0873995}
+      navNodeIndex: 45
+      navVertIndex: 0
     jumpArc:
       j: 4.0982656
       halfG: 10
@@ -5087,13 +5087,13 @@ MonoBehaviour:
     worldPointB: {x: 79.0581, y: 9.706259}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 74.16318, y: 9.207083}
+      navNodeIndex: 69
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 79.0581, y: 9.209}
+      navNodeIndex: 103
+      navVertIndex: 0
     jumpArc:
       j: 9.791799
       halfG: 10
@@ -5115,13 +5115,13 @@ MonoBehaviour:
     worldPointB: {x: 90.56683, y: 9.428941}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.185, y: 9.209}
+      navNodeIndex: 103
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 90.604805, y: 9.204313}
+      navNodeIndex: 83
+      navVertIndex: 0
     jumpArc:
       j: 10.835292
       halfG: 10
@@ -5143,13 +5143,13 @@ MonoBehaviour:
     worldPointB: {x: 78.980736, y: 1.1400614}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 73.852, y: 1.189}
+      navNodeIndex: 102
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 78.987, y: 0.94}
+      navNodeIndex: 65
+      navVertIndex: 0
     jumpArc:
       j: 10.027551
       halfG: 10
@@ -5171,13 +5171,13 @@ MonoBehaviour:
     worldPointB: {x: 90.48947, y: 0.09239328}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.185, y: 0.94}
+      navNodeIndex: 65
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 90.59162, y: -0.32462263}
+      navNodeIndex: 27
+      navVertIndex: 0
     jumpArc:
       j: 9.643736
       halfG: 10
@@ -5199,13 +5199,13 @@ MonoBehaviour:
     worldPointB: {x: 96.66747, y: 3.4202662}
     xSpeedScale: 0.4624997
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 94.73105, y: -0.32051077}
+      navNodeIndex: 27
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 96.70772, y: 3.1438494}
+      navNodeIndex: 26
+      navVertIndex: 1
     jumpArc:
       j: 12.600707
       halfG: 10
@@ -5227,13 +5227,13 @@ MonoBehaviour:
     worldPointB: {x: 78.91795, y: -8.504629}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 74.284805, y: -5.089733}
+      navNodeIndex: 45
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 78.987, y: -8.841}
+      navNodeIndex: 98
+      navVertIndex: 0
     jumpArc:
       j: 5.415542
       halfG: 10
@@ -5255,13 +5255,13 @@ MonoBehaviour:
     worldPointB: {x: 91.53595, y: -11.971137}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.16185, y: -8.841}
+      navNodeIndex: 98
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 91.645, y: -12.411}
+      navNodeIndex: 82
+      navVertIndex: 0
     jumpArc:
       j: 10.213
       halfG: 10
@@ -5283,13 +5283,13 @@ MonoBehaviour:
     worldPointB: {x: 92.50631, y: -12.248437}
     xSpeedScale: 0.72499996
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 89.61416, y: -15.86}
+      navNodeIndex: 66
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 92.50631, y: -12.411}
+      navNodeIndex: 82
+      navVertIndex: 0
     jumpArc:
       j: 12.301297
       halfG: 10
@@ -5311,13 +5311,13 @@ MonoBehaviour:
     worldPointB: {x: 88.003654, y: -15.749978}
     xSpeedScale: 0.79999995
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.185, y: -18.595}
+      navNodeIndex: 36
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 88.034, y: -15.86}
+      navNodeIndex: 66
+      navVertIndex: 0
     jumpArc:
       j: 10.962442
       halfG: 10
@@ -5339,13 +5339,13 @@ MonoBehaviour:
     worldPointB: {x: 78.89847, y: -18.096512}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 74.099884, y: -16.197}
+      navNodeIndex: 90
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 78.987, y: -18.595}
+      navNodeIndex: 36
+      navVertIndex: 0
     jumpArc:
       j: 7.320842
       halfG: 10
@@ -5367,13 +5367,13 @@ MonoBehaviour:
     worldPointB: {x: 72.0695, y: -16.087154}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 66.62322, y: -19.10944}
+      navNodeIndex: 44
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 72.089, y: -16.197}
+      navNodeIndex: 90
+      navVertIndex: 0
     jumpArc:
       j: 13.5958
       halfG: 10
@@ -5395,13 +5395,13 @@ MonoBehaviour:
     worldPointB: {x: 69.61751, y: -22.431782}
     xSpeedScale: 0.9250003
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 66.01364, y: -19.111057}
+      navNodeIndex: 44
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 69.766, y: -22.539}
+      navNodeIndex: 57
+      navVertIndex: 0
     jumpArc:
       j: 3.8880618
       halfG: 10
@@ -5423,13 +5423,13 @@ MonoBehaviour:
     worldPointB: {x: 74.55586, y: -24.981403}
     xSpeedScale: 0.73750037
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 71.8, y: -22.539}
+      navNodeIndex: 57
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 74.588, y: -25.209}
+      navNodeIndex: 33
+      navVertIndex: 0
     jumpArc:
       j: 4.0292206
       halfG: 10
@@ -5451,13 +5451,13 @@ MonoBehaviour:
     worldPointB: {x: 78.95742, y: -27.933594}
     xSpeedScale: 0.624998
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 76.61498, y: -25.209}
+      navNodeIndex: 33
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 78.987, y: -28.317}
+      navNodeIndex: 54
+      navVertIndex: 0
     jumpArc:
       j: 3.4958756
       halfG: 10
@@ -5479,13 +5479,13 @@ MonoBehaviour:
     worldPointB: {x: 89.08898, y: -24.954556}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.185, y: -28.317}
+      navNodeIndex: 54
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 89.08801, y: -25.11849}
+      navNodeIndex: 95
+      navVertIndex: 0
     jumpArc:
       j: 11.903516
       halfG: 10
@@ -5507,13 +5507,13 @@ MonoBehaviour:
     worldPointB: {x: 94.47052, y: -28.913132}
     xSpeedScale: 0.85000056
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 91.04, y: -25.13}
+      navNodeIndex: 95
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 94.593, y: -29.148}
+      navNodeIndex: 7
+      navVertIndex: 0
     jumpArc:
       j: 3.5537746
       halfG: 10
@@ -5535,13 +5535,13 @@ MonoBehaviour:
     worldPointB: {x: 95.24896, y: -29.047283}
     xSpeedScale: 0.87499917
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 91.6, y: -32.348}
+      navNodeIndex: 91
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 95.24896, y: -29.148}
+      navNodeIndex: 7
+      navVertIndex: 0
     jumpArc:
       j: 12.177197
       halfG: 10
@@ -5559,28 +5559,28 @@ MonoBehaviour:
       showDetails: 0
       showInScene: 1
       showInSceneDetailed: 0
-  - worldPointA: {x: 87.28397, y: -33.75737}
+  - worldPointA: {x: 86.11687, y: -36.055664}
     worldPointB: {x: 89.5325, y: -32.187336}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 85.731064, y: -36.42279}
+      navNodeIndex: 8
+      navVertIndex: 1
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 89.566, y: -32.348}
+      navNodeIndex: 91
+      navVertIndex: 0
     jumpArc:
-      j: 12.75612
+      j: 12.982596
       halfG: 10
       v: 5
       doubleG: 40
-      minX: 85.17083
+      minX: 85.731064
       maxX: 89.566
-      startX: 85.17083
+      startX: 85.731064
       endX: 89.566
       minY: 0
-      maxY: 1.0169911
+      maxY: 1.0534238
     isJumpLinkValid: 1
     isBiDirectional: 1
     jumpLinkSettings:
@@ -5591,13 +5591,13 @@ MonoBehaviour:
     worldPointB: {x: 78.95831, y: -35.52866}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 73.749, y: -33.013}
+      navNodeIndex: 59
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 78.99945, y: -35.84089}
+      navNodeIndex: 8
+      navVertIndex: 2
     jumpArc:
       j: 7.8079047
       halfG: 10
@@ -5619,13 +5619,13 @@ MonoBehaviour:
     worldPointB: {x: 71.65841, y: -32.750885}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 67.361, y: -29.494}
+      navNodeIndex: 9
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 71.715, y: -33.013}
+      navNodeIndex: 59
+      navVertIndex: 0
     jumpArc:
       j: 4.6668763
       halfG: 10
@@ -5643,28 +5643,28 @@ MonoBehaviour:
       showDetails: 0
       showInScene: 1
       showInSceneDetailed: 0
-  - worldPointA: {x: 65.343895, y: -25.289824}
+  - worldPointA: {x: 65.01376, y: -25.169777}
     worldPointB: {x: 67.10933, y: -29.221619}
     xSpeedScale: 0.41249907
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 65.01376, y: -25.375}
+      navNodeIndex: 10
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 67.10933, y: -29.494}
+      navNodeIndex: 9
+      navVertIndex: 0
     jumpArc:
-      j: 3.9651875
+      j: 6.1063457
       halfG: 10
       v: 2.0624952
       doubleG: 40
-      minX: 65.315
+      minX: 65.01376
       maxX: 67.10933
-      startX: 65.315
+      startX: 65.01376
       endX: 67.10933
       minY: -4.1189995
-      maxY: 0.09826695
+      maxY: 0.2330466
     isJumpLinkValid: 1
     isBiDirectional: 1
     jumpLinkSettings:
@@ -5675,13 +5675,13 @@ MonoBehaviour:
     worldPointB: {x: 71.74614, y: 1.2852441}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 67.67254, y: -3.0318398}
+      navNodeIndex: 46
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 71.818, y: 1.189}
+      navNodeIndex: 102
+      navVertIndex: 0
     jumpArc:
       j: 13.38184
       halfG: 10
@@ -5703,13 +5703,13 @@ MonoBehaviour:
     worldPointB: {x: 124.62551, y: -17.731792}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 121.254, y: -21.089}
+      navNodeIndex: 6
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 124.639, y: -17.733}
+      navNodeIndex: 60
+      navVertIndex: 0
     jumpArc:
       j: 11.727166
       halfG: 10
@@ -5731,13 +5731,13 @@ MonoBehaviour:
     worldPointB: {x: 131.2821, y: -15.921795}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 126.66263, y: -17.733}
+      navNodeIndex: 60
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 131.322, y: -15.963}
+      navNodeIndex: 92
+      navVertIndex: 0
     jumpArc:
       j: 11.21815
       halfG: 10
@@ -5759,13 +5759,13 @@ MonoBehaviour:
     worldPointB: {x: 142.72566, y: -14.266603}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 137.52, y: -15.963}
+      navNodeIndex: 92
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 142.76, y: -14.348}
+      navNodeIndex: 34
+      navVertIndex: 0
     jumpArc:
       j: 12.021015
       halfG: 10
@@ -5787,13 +5787,13 @@ MonoBehaviour:
     worldPointB: {x: 149.41805, y: -15.767009}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 144.76285, y: -14.348}
+      navNodeIndex: 34
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 149.44916, y: -15.96228}
+      navNodeIndex: 32
+      navVertIndex: 0
     jumpArc:
       j: 7.6502824
       halfG: 10
@@ -5815,13 +5815,13 @@ MonoBehaviour:
     worldPointB: {x: 159.96628, y: -13.11102}
     xSpeedScale: 1
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 155.61218, y: -15.969566}
+      navNodeIndex: 32
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 159.96564, y: -13.229162}
+      navNodeIndex: 30
+      navVertIndex: 0
     jumpArc:
       j: 11.8543
       halfG: 10
@@ -5843,13 +5843,13 @@ MonoBehaviour:
     worldPointB: {x: 165.25456, y: -17.352823}
     xSpeedScale: 0.7999993
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 161.95, y: -13.24}
+      navNodeIndex: 30
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 165.32016, y: -17.68528}
+      navNodeIndex: 63
+      navVertIndex: 0
     jumpArc:
       j: 3.1493773
       halfG: 10
@@ -5871,13 +5871,13 @@ MonoBehaviour:
     worldPointB: {x: 169.4285, y: -13.406797}
     xSpeedScale: 0.5374993
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 167.21312, y: -17.685764}
+      navNodeIndex: 63
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 169.4285, y: -13.607132}
+      navNodeIndex: 62
+      navVertIndex: 0
     jumpArc:
       j: 13.191106
       halfG: 10
@@ -5899,13 +5899,13 @@ MonoBehaviour:
     worldPointB: {x: 174.01147, y: -15.476515}
     xSpeedScale: 0.8124994
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 171.48187, y: -13.607196}
+      navNodeIndex: 62
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 174.076, y: -15.889}
+      navNodeIndex: 37
+      navVertIndex: 0
     jumpArc:
       j: 2.812177
       halfG: 10
@@ -5927,13 +5927,13 @@ MonoBehaviour:
     worldPointB: {x: 179.70915, y: -20.98066}
     xSpeedScale: 0.81249994
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 176.10643, y: -15.889}
+      navNodeIndex: 37
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 179.70915, y: -21.066}
+      navNodeIndex: 55
+      navVertIndex: 0
     jumpArc:
       j: 3.0305543
       halfG: 10
@@ -5955,13 +5955,13 @@ MonoBehaviour:
     worldPointB: {x: 178.21945, y: -21.03752}
     xSpeedScale: 0.83749956
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 175.33, y: -23.971}
+      navNodeIndex: 53
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 178.21945, y: -21.066}
+      navNodeIndex: 55
+      navVertIndex: 0
     jumpArc:
       j: 11.110217
       halfG: 10
@@ -5983,13 +5983,13 @@ MonoBehaviour:
     worldPointB: {x: 173.2954, y: -23.93742}
     xSpeedScale: 0.824999
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 170.254, y: -27.227}
+      navNodeIndex: 3
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 173.296, y: -23.971}
+      navNodeIndex: 53
+      navVertIndex: 0
     jumpArc:
       j: 11.7897415
       halfG: 10
@@ -6011,13 +6011,13 @@ MonoBehaviour:
     worldPointB: {x: 172.15848, y: -29.100391}
     xSpeedScale: 0.7874998
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 169.74985, y: -27.227}
+      navNodeIndex: 3
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 172.15848, y: -29.293}
+      navNodeIndex: 2
+      navVertIndex: 0
     jumpArc:
       j: 2.7397726
       halfG: 10
@@ -6039,13 +6039,13 @@ MonoBehaviour:
     worldPointB: {x: 156.19214, y: -26.848763}
     xSpeedScale: 0.8375001
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 153.914, y: -25.213}
+      navNodeIndex: 4
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 156.19214, y: -27.227}
+      navNodeIndex: 3
+      navVertIndex: 0
     jumpArc:
       j: 1.7383436
       halfG: 10
@@ -6067,13 +6067,13 @@ MonoBehaviour:
     worldPointB: {x: 139.89612, y: -24.756327}
     xSpeedScale: 0.76999915
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 137.594, y: -23.155}
+      navNodeIndex: 5
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 139.89612, y: -25.213}
+      navNodeIndex: 4
+      navVertIndex: 0
     jumpArc:
       j: 2.5378206
       halfG: 10
@@ -6095,13 +6095,13 @@ MonoBehaviour:
     worldPointB: {x: 123.20202, y: -22.845829}
     xSpeedScale: 0.7499995
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 120.90708, y: -21.089}
+      navNodeIndex: 6
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 123.20202, y: -23.155}
+      navNodeIndex: 5
+      navVertIndex: 0
     jumpArc:
       j: 2.7439284
       halfG: 10
@@ -6123,13 +6123,13 @@ MonoBehaviour:
     worldPointB: {x: 101.124886, y: 27.919365}
     xSpeedScale: 0.78750175
     navPosA:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 98.75355, y: 29.65669}
+      navNodeIndex: 85
+      navVertIndex: 0
     navPosB:
-      navPoint: {x: 0, y: 0}
-      navNodeIndex: -1
-      navVertIndex: -1
+      navPoint: {x: 101.12443, y: 27.597809}
+      navNodeIndex: 84
+      navVertIndex: 0
     jumpArc:
       j: 2.6019213
       halfG: 10
@@ -6166,7 +6166,7 @@ MonoBehaviour:
   gravity: 20
   maxXVel: 5
   slopeLimit: 60
---- !u!114 &114000011826283418
+--- !u!114 &114000011739339756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -8145,6 +8145,1994 @@ MonoBehaviour:
     - angleABC: 0
       slopeAngleBC: 0
       distanceBC: 0
+      pointB: {x: 85.185, y: 9.209}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 78.987, y: 9.209}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  navAgentSettings: {fileID: 0}
+--- !u!114 &114000011826283418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5fb89239bf7864fbc34acf00705310, type: 3}
+  m_Name: NavData2DBuildContainer
+  m_EditorClassIdentifier: 
+  name: 
+  version: 0
+  nodes:
+  - bounds:
+      m_Center: {x: 182.4515, y: -12.833, z: 0}
+      m_Extent: {x: 2.0365067, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 4.0730133
+      pointB: {x: 184.488, y: -12.833}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 180.415, y: -12.833}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 183.48651, y: -18.992, z: 0}
+      m_Extent: {x: 1.001503, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.003006
+      pointB: {x: 184.488, y: -18.992}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 182.485, y: -18.992}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 177.371, y: -29.293, z: 0}
+      m_Extent: {x: 7.1170044, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 14.234009
+      pointB: {x: 184.488, y: -29.293}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 170.254, y: -29.293}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 162.084, y: -27.227, z: 0}
+      m_Extent: {x: 8.169998, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 16.339996
+      pointB: {x: 170.254, y: -27.227}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 153.914, y: -27.227}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 145.754, y: -25.213, z: 0}
+      m_Extent: {x: 8.160004, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 16.320007
+      pointB: {x: 153.914, y: -25.213}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 137.594, y: -25.213}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 129.424, y: -23.155, z: 0}
+      m_Extent: {x: 8.169998, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 16.339996
+      pointB: {x: 137.594, y: -23.155}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 121.254, y: -23.155}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 108.938, y: -21.089, z: 0}
+      m_Extent: {x: 12.315998, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 24.631996
+      pointB: {x: 121.254, y: -21.089}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 96.622, y: -21.089}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 96.6505, y: -29.148, z: 0}
+      m_Extent: {x: 2.057499, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 4.114998
+      pointB: {x: 98.708, y: -29.148}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 94.593, y: -29.148}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.010506, y: -36.76703, z: 0}
+      m_Extent: {x: 16.697502, y: 0.93297577, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 11.761551
+      pointB: {x: 98.708, y: -37.7}
+      linkIndex: 
+    - angleABC: 133.57909
+      slopeAngleBC: 43.579082
+      distanceBC: 2.575769
+      pointB: {x: 86.94645, y: -37.7}
+      linkIndex: 
+    - angleABC: 133.51562
+      slopeAngleBC: 90.06347
+      distanceBC: 6.171383
+      pointB: {x: 85.17083, y: -35.834053}
+      linkIndex: 
+    - angleABC: 136.4071
+      slopeAngleBC: 133.65637
+      distanceBC: 2.6930704
+      pointB: {x: 78.99945, y: -35.84089}
+      linkIndex: 
+    - angleABC: 136.34364
+      slopeAngleBC: 90
+      distanceBC: 11.7380295
+      pointB: {x: 77.05103, y: -37.7}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 65.313, y: -37.7}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 66.3374, y: -29.494, z: 0}
+      m_Extent: {x: 1.0235977, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0471954
+      pointB: {x: 67.361, y: -29.494}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 65.313805, y: -29.494}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 16.6105, y: -25.375, z: 0}
+      m_Extent: {x: 48.704502, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 97.409004
+      pointB: {x: 65.315, y: -25.375}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -32.094, y: -25.375}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -33.1075, y: -23.34, z: 0}
+      m_Extent: {x: 1.0134983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0269966
+      pointB: {x: -32.094, y: -23.34}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -34.121, y: -23.34}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -33.1165, y: -17.157, z: 0}
+      m_Extent: {x: 1.0044994, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0089989
+      pointB: {x: -32.112, y: -17.157}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -34.121, y: -17.157}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -33.1165, y: -8.955, z: 0}
+      m_Extent: {x: 1.0044994, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0089989
+      pointB: {x: -32.112, y: -8.955}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -34.121, y: -8.955}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -32.861668, y: -0.79724246, z: 0}
+      m_Extent: {x: 0.72052, y: 0.0024846196, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.19758
+      distanceBC: 1.4410486
+      pointB: {x: -32.141148, y: -0.79475784}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -33.582188, y: -0.7997271}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -25.407085, y: 16.455322, z: 0}
+      m_Extent: {x: 4.1145697, y: 1.0368967, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.05306
+      distanceBC: 4.027876
+      pointB: {x: -21.292517, y: 15.422157}
+      linkIndex: 
+    - angleABC: 135.28137
+      slopeAngleBC: 45.334435
+      distanceBC: 2.9494336
+      pointB: {x: -25.32039, y: 15.418427}
+      linkIndex: 
+    - angleABC: 135.34633
+      slopeAngleBC: 89.988106
+      distanceBC: 2.1035633
+      pointB: {x: -27.418093, y: 17.491783}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -29.521656, y: 17.49222}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -30.505505, y: 19.56653, z: 0}
+      m_Extent: {x: 0.9848337, y: 0.0043907166, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.74456
+      distanceBC: 1.969687
+      pointB: {x: -29.520672, y: 19.56214}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -31.49034, y: 19.57092}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -32.628475, y: 28.769438, z: 0}
+      m_Extent: {x: 3.0695152, y: 1.0507107, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.94208
+      distanceBC: 2.0752935
+      pointB: {x: -29.558962, y: 29.81805}
+      linkIndex: 
+    - angleABC: 134.29877
+      slopeAngleBC: 135.6433
+      distanceBC: 2.9386055
+      pointB: {x: -31.634254, y: 29.820148}
+      linkIndex: 
+    - angleABC: 134.36566
+      slopeAngleBC: 90.00898
+      distanceBC: 2.0092888
+      pointB: {x: -33.6887, y: 27.719042}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -35.69799, y: 27.718727}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -37.716385, y: 25.68969, z: 0}
+      m_Extent: {x: 2.017149, y: 0.0020275116, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.94241
+      distanceBC: 4.0343
+      pointB: {x: -35.699238, y: 25.687662}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -39.733536, y: 25.691717}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -37.73445, y: 15.437565, z: 0}
+      m_Extent: {x: 4.1505547, y: 0.0026664734, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.96319
+      distanceBC: 8.301111
+      pointB: {x: -33.583897, y: 15.434898}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -41.885006, y: 15.440231}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -42.733467, y: 7.350443, z: 0}
+      m_Extent: {x: 3.0746498, y: 0.0013568401, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.02529
+      distanceBC: 6.1493
+      pointB: {x: -39.658817, y: 7.3517995}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -45.808117, y: 7.349086}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -55.27559, y: 0.23202932, z: 0}
+      m_Extent: {x: 15.613289, y: 1.0300293, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.08679
+      distanceBC: 4.055707
+      pointB: {x: -39.662304, y: 1.2042255}
+      linkIndex: 
+    - angleABC: 135.3839
+      slopeAngleBC: 134.7029
+      distanceBC: 2.8376389
+      pointB: {x: -43.718006, y: 1.198082}
+      linkIndex: 
+    - angleABC: 135.29712
+      slopeAngleBC: 90
+      distanceBC: 19.051594
+      pointB: {x: -45.734898, y: -0.798}
+      linkIndex: 
+    - angleABC: 134.58107
+      slopeAngleBC: 44.581066
+      distanceBC: 2.8922925
+      pointB: {x: -64.78649, y: -0.798}
+      linkIndex: 
+    - angleABC: 134.57695
+      slopeAngleBC: 90.00412
+      distanceBC: 4.072235
+      pointB: {x: -66.81664, y: 1.2620586}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -70.88888, y: 1.2617658}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -69.8725, y: 7.351, z: 0}
+      m_Extent: {x: 1.0164986, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0329971
+      pointB: {x: -68.856, y: 7.351}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -70.889, y: 7.351}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -70.8515, y: 15.555, z: 0}
+      m_Extent: {x: 2.0395012, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 4.0790024
+      pointB: {x: -68.812, y: 15.555}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -72.891, y: 15.555}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -69.904, y: 23.369, z: 0}
+      m_Extent: {x: 2.9869995, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 5.973999
+      pointB: {x: -66.917, y: 23.369}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -72.891, y: 23.369}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -67.7595, y: 31.865, z: 0}
+      m_Extent: {x: 5.1315002, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 10.2630005
+      pointB: {x: -62.628, y: 31.865}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -72.891, y: 31.865}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 106.89186, y: 4.145565, z: 0}
+      m_Extent: {x: 10.184139, y: 1.0017157, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 134.59201
+      distanceBC: 2.8524253
+      pointB: {x: 117.076, y: 5.1472807}
+      linkIndex: 
+    - angleABC: 135.41074
+      slopeAngleBC: 90.00274
+      distanceBC: 18.336998
+      pointB: {x: 115.044716, y: 3.1447248}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 96.70772, y: 3.1438494}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 93.650406, y: -0.32158422, z: 0}
+      m_Extent: {x: 3.0587883, y: 0.0030384064, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.056915
+      distanceBC: 6.11758
+      pointB: {x: 96.7092, y: -0.31854582}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 90.59162, y: -0.32462263}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 96.6823, y: -9.048395, z: 0}
+      m_Extent: {x: 2.037075, y: 0.00035429, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.990036
+      distanceBC: 4.07415
+      pointB: {x: 98.719376, y: -9.048749}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 94.645226, y: -9.04804}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 116.08943, y: -15.012228, z: 0}
+      m_Extent: {x: 1.007309, y: 0.001648426, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.093765
+      distanceBC: 2.0146205
+      pointB: {x: 117.09674, y: -15.010579}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 115.08212, y: -15.013876}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 160.943, y: -13.2345, z: 0}
+      m_Extent: {x: 1.0069962, y: 0.00549984, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.68708
+      distanceBC: 2.0140224
+      pointB: {x: 161.95, y: -13.24}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 159.936, y: -13.229}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -61.735, y: 5.024, z: 0}
+      m_Extent: {x: 3.0860004, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.172001
+      pointB: {x: -58.649, y: 5.024}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -64.821, y: 5.024}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 152.53067, y: -15.965923, z: 0}
+      m_Extent: {x: 3.0815125, y: 0.003643036, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.93226
+      distanceBC: 6.163029
+      pointB: {x: 155.61218, y: -15.969566}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 149.44916, y: -15.96228}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 75.604996, y: -25.209, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 76.622, y: -25.209}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 74.588, y: -25.209}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 143.767, y: -14.348, z: 0}
+      m_Extent: {x: 1.0070038, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0140076
+      pointB: {x: 144.774, y: -14.348}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 142.76, y: -14.348}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 112.102005, y: 16.351, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 113.119, y: 16.351}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 111.085, y: 16.351}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.086, y: -18.595, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
+      pointB: {x: 85.185, y: -18.595}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 78.987, y: -18.595}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 175.093, y: -15.889, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 176.11, y: -15.889}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 174.076, y: -15.889}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -9.162001, y: 6.099, z: 0}
+      m_Extent: {x: 6.155, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 12.31
+      pointB: {x: -3.007, y: 6.099}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -15.317, y: 6.099}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -57.525497, y: 26.618, z: 0}
+      m_Extent: {x: 3.1434994, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.2869987
+      pointB: {x: -54.382, y: 26.618}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -60.669, y: 26.618}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 30.497002, y: 30.245, z: 0}
+      m_Extent: {x: 3.099, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.198
+      pointB: {x: 33.596, y: 30.245}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 27.398, y: 30.245}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -28.488003, y: -4.9781494, z: 0}
+      m_Extent: {x: 1.0359077, y: 0.0021913052, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.1212
+      distanceBC: 2.07182
+      pointB: {x: -27.452095, y: -4.9759583}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -29.52391, y: -4.980341}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -28.509674, y: -13.126711, z: 0}
+      m_Extent: {x: 1.0203552, y: 0.0060839653, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.34163
+      distanceBC: 2.0407467
+      pointB: {x: -27.489319, y: -13.120626}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -29.53003, y: -13.132794}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -28.50562, y: -21.14154, z: 0}
+      m_Extent: {x: 1.0223732, y: 0.007788658, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.56352
+      distanceBC: 2.0448058
+      pointB: {x: -27.483246, y: -21.149328}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -29.527992, y: -21.13375}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 65.62102, y: -19.112099, z: 0}
+      m_Extent: {x: 1.0022011, y: 0.0026578903, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.151955
+      distanceBC: 2.0044093
+      pointB: {x: 66.62322, y: -19.10944}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 64.61882, y: -19.114756}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 71.18771, y: -5.08795, z: 0}
+      m_Extent: {x: 3.099678, y: 0.0017843246, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.96702
+      distanceBC: 6.199357
+      pointB: {x: 74.28739, y: -5.0897346}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 68.088036, y: -5.086166}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 66.0235, y: -3.0312276, z: 0}
+      m_Extent: {x: 2.0563774, y: 0.0007634163, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.97873
+      distanceBC: 4.1127553
+      pointB: {x: 68.07987, y: -3.031991}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 63.967117, y: -3.0304642}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 44.709717, y: -6.096134, z: 0}
+      m_Extent: {x: 19.256416, y: 1.0347958, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.20671
+      distanceBC: 1.9508222
+      pointB: {x: 63.966133, y: -5.061338}
+      linkIndex: 
+    - angleABC: 135.90752
+      slopeAngleBC: 134.2992
+      distanceBC: 2.9395769
+      pointB: {x: 62.015324, y: -5.068376}
+      linkIndex: 
+    - angleABC: 135.75084
+      slopeAngleBC: 90.05004
+      distanceBC: 10.921754
+      pointB: {x: 59.91146, y: -7.121392}
+      linkIndex: 
+    - angleABC: 134.44733
+      slopeAngleBC: 44.497364
+      distanceBC: 2.8514745
+      pointB: {x: 48.98971, y: -7.13093}
+      linkIndex: 
+    - angleABC: 134.4023
+      slopeAngleBC: 90.09507
+      distanceBC: 6.1808863
+      pointB: {x: 46.99118, y: -5.0970225}
+      linkIndex: 
+    - angleABC: 135.43608
+      slopeAngleBC: 134.659
+      distanceBC: 2.858926
+      pointB: {x: 40.810303, y: -5.107279}
+      linkIndex: 
+    - angleABC: 135.39365
+      slopeAngleBC: 90.05264
+      distanceBC: 9.278753
+      pointB: {x: 38.77674, y: -7.1167774}
+      linkIndex: 
+    - angleABC: 134.42126
+      slopeAngleBC: 44.473904
+      distanceBC: 2.8746097
+      pointB: {x: 29.497992, y: -7.1253023}
+      linkIndex: 
+    - angleABC: 134.45332
+      slopeAngleBC: 90.02057
+      distanceBC: 2.0307868
+      pointB: {x: 27.484085, y: -5.074068}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 25.453299, y: -5.074797}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 24.451927, y: -3.0875626, z: 0}
+      m_Extent: {x: 1.0007772, y: 0.001992464, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.114075
+      distanceBC: 2.0015583
+      pointB: {x: 25.452703, y: -3.08557}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 23.451149, y: -3.089555}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 22.414116, y: -1.0251417, z: 0}
+      m_Extent: {x: 1.0350609, y: 0.0042132735, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.76678
+      distanceBC: 2.070139
+      pointB: {x: 23.449177, y: -1.029355}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 21.379055, y: -1.0209285}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 13.802301, y: 1.0589404, z: 0}
+      m_Extent: {x: 7.5858097, y: 0.0036420822, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.97249
+      distanceBC: 15.171621
+      pointB: {x: 21.388111, y: 1.0552983}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 6.2164917, y: 1.0625825}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 3.1243668, y: 3.0773335, z: 0}
+      m_Extent: {x: 3.0823936, y: 0.0013132095, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.02441
+      distanceBC: 6.164788
+      pointB: {x: 6.2067604, y: 3.0786467}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 0.041973114, y: 3.0760202}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -14.7462225, y: 2.084769, z: 0}
+      m_Extent: {x: 14.790315, y: 1.0339243, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.95972
+      distanceBC: 19.29255
+      pointB: {x: 0.044092767, y: 1.0508448}
+      linkIndex: 
+    - angleABC: 134.75099
+      slopeAngleBC: 44.710712
+      distanceBC: 2.8860865
+      pointB: {x: -19.248451, y: 1.0644093}
+      linkIndex: 
+    - angleABC: 134.73314
+      slopeAngleBC: 89.977554
+      distanceBC: 8.257646
+      pointB: {x: -21.278893, y: 3.1154585}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -29.536537, y: 3.1186934}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 174.313, y: -23.971, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 175.33, y: -23.971}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 173.296, y: -23.971}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.086, y: -28.317, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
+      pointB: {x: 85.185, y: -28.317}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 78.987, y: -28.317}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 179.217, y: -21.066, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 180.234, y: -21.066}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 178.2, y: -21.066}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -47.833, y: 17.949, z: 0}
+      m_Extent: {x: 3.1100006, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.220001
+      pointB: {x: -44.723, y: 17.949}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -50.943, y: 17.949}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 70.783005, y: -22.539, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 71.8, y: -22.539}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 69.766, y: -22.539}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -44.809, y: 33.839, z: 0}
+      m_Extent: {x: 9.247999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 18.495998
+      pointB: {x: -35.561, y: 33.839}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -54.057, y: 33.839}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 72.731995, y: -33.013, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 73.749, y: -33.013}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 71.715, y: -33.013}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 125.656, y: -17.733, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 126.673, y: -17.733}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 124.639, y: -17.733}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -19.22159, y: 28.764532, z: 0}
+      m_Extent: {x: 6.2004128, y: 1.0446491, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 45.296574
+      distanceBC: 2.9699867
+      pointB: {x: -13.021176, y: 27.719883}
+      linkIndex: 
+    - angleABC: 135.29713
+      slopeAngleBC: 89.99945
+      distanceBC: 10.289886
+      pointB: {x: -15.132116, y: 29.809082}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -25.422003, y: 29.809181}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 170.44028, y: -13.607163, z: 0}
+      m_Extent: {x: 1.0415955, y: 0.000032424927, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.998215
+      distanceBC: 2.083191
+      pointB: {x: 171.48187, y: -13.607196}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 169.39868, y: -13.607131}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 167.36234, y: -17.685802, z: 0}
+      m_Extent: {x: 2.0421753, y: 0.00052165985, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.98537
+      distanceBC: 4.0843506
+      pointB: {x: 169.40451, y: -17.686323}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 165.32016, y: -17.68528}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -52.307, y: 11.219, z: 0}
+      m_Extent: {x: 3.0860004, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.172001
+      pointB: {x: -49.221, y: 11.219}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -55.393, y: 11.219}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.086, y: 0.94, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
+      pointB: {x: 85.185, y: 0.94}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 78.987, y: 0.94}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 89.050995, y: -15.86, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 90.068, y: -15.86}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 88.034, y: -15.86}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 49.21115, y: 30.175098, z: 0}
+      m_Extent: {x: 10.258677, y: 1.0664377, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 44.593063
+      distanceBC: 2.972991
+      pointB: {x: 59.46983, y: 29.10866}
+      linkIndex: 
+    - angleABC: 134.64212
+      slopeAngleBC: 89.95096
+      distanceBC: 18.430126
+      pointB: {x: 57.38259, y: 31.22576}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 38.952473, y: 31.241535}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 15.028599, y: 29.219744, z: 0}
+      m_Extent: {x: 8.103606, y: 1.0278797, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.99446
+      distanceBC: 12.294047
+      pointB: {x: 23.132204, y: 30.246433}
+      linkIndex: 
+    - angleABC: 135.55226
+      slopeAngleBC: 134.44218
+      distanceBC: 2.9360058
+      pointB: {x: 10.838157, y: 30.247623}
+      linkIndex: 
+    - angleABC: 135.5494
+      slopeAngleBC: 89.991585
+      distanceBC: 1.8169818
+      pointB: {x: 8.741974, y: 28.191864}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 6.924992, y: 28.192131}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 68.06207, y: 9.20747, z: 0}
+      m_Extent: {x: 6.1011086, y: 0.00038719177, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.99636
+      distanceBC: 12.202217
+      pointB: {x: 74.16318, y: 9.207083}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 61.96096, y: 9.207857}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 60.92212, y: 7.1491604, z: 0}
+      m_Extent: {x: 1.0380497, y: 0.00039720535, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.02192
+      distanceBC: 2.0760996
+      pointB: {x: 61.960167, y: 7.1495576}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 59.884068, y: 7.148763}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -51.956, y: 3.959, z: 0}
+      m_Extent: {x: 3.0860004, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.172001
+      pointB: {x: -48.87, y: 3.959}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -55.042, y: 3.959}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 36.77599, y: 16.285337, z: 0}
+      m_Extent: {x: 1.0832901, y: 0.0032653809, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.82729
+      distanceBC: 2.16659
+      pointB: {x: 37.85928, y: 16.282072}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 35.6927, y: 16.288603}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 19.483866, y: 21.410578, z: 0}
+      m_Extent: {x: 16.215229, y: 1.046072, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 44.573742
+      distanceBC: 2.9327316
+      pointB: {x: 35.699097, y: 20.364508}
+      linkIndex: 
+    - angleABC: 134.57944
+      slopeAngleBC: 89.99431
+      distanceBC: 30.37219
+      pointB: {x: 33.640827, y: 22.453632}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 3.2686367, y: 22.45665}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -2.925044, y: 25.513897, z: 0}
+      m_Extent: {x: 6.1969604, y: 1.0428076, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.74069
+      distanceBC: 2.1653306
+      pointB: {x: 3.2719154, y: 24.471174}
+      linkIndex: 
+    - angleABC: 134.97139
+      slopeAngleBC: 44.712082
+      distanceBC: 2.9208863
+      pointB: {x: 1.106607, y: 24.480974}
+      linkIndex: 
+    - angleABC: 134.64894
+      slopeAngleBC: 90.063126
+      distanceBC: 4.0717196
+      pointB: {x: -0.9483664, y: 26.556705}
+      linkIndex: 
+    - angleABC: 135.48885
+      slopeAngleBC: 134.57428
+      distanceBC: 2.9562254
+      pointB: {x: -5.0200834, y: 26.55222}
+      linkIndex: 
+    - angleABC: 135.60803
+      slopeAngleBC: 90.18231
+      distanceBC: 1.99609
+      pointB: {x: -7.1259246, y: 24.477442}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -9.1220045, y: 24.47109}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -17.250515, y: 22.43534, z: 0}
+      m_Extent: {x: 8.105053, y: 0.00017929077, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.00127
+      distanceBC: 16.210106
+      pointB: {x: -9.145463, y: 22.43552}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -25.355568, y: 22.435162}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 112.117004, y: 25.504, z: 0}
+      m_Extent: {x: 1.0320015, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.064003
+      pointB: {x: 113.149, y: 25.504}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 111.085, y: 25.504}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 51.992973, y: 19.277035, z: 0}
+      m_Extent: {x: 10.252401, y: 1.0242958, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.008194
+      distanceBC: 12.308338
+      pointB: {x: 62.24538, y: 18.2545}
+      linkIndex: 
+    - angleABC: 134.76083
+      slopeAngleBC: 44.76902
+      distanceBC: 2.8855395
+      pointB: {x: 49.937042, y: 18.252739}
+      linkIndex: 
+    - angleABC: 134.7493
+      slopeAngleBC: 90.01974
+      distanceBC: 6.164326
+      pointB: {x: 47.9049, y: 20.301332}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 41.740574, y: 20.29921}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 42.75156, y: 12.227491, z: 0}
+      m_Extent: {x: 1.0304794, y: 0.0028777122, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.84
+      distanceBC: 2.0609667
+      pointB: {x: 43.78204, y: 12.224613}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 41.72108, y: 12.230369}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 35.615444, y: 9.112125, z: 0}
+      m_Extent: {x: 6.0989876, y: 1.0257359, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.06287
+      distanceBC: 4.090388
+      pointB: {x: 41.714428, y: 10.137861}
+      linkIndex: 
+    - angleABC: 135.42847
+      slopeAngleBC: 134.63438
+      distanceBC: 2.903317
+      pointB: {x: 37.624043, y: 10.133373}
+      linkIndex: 
+    - angleABC: 135.43361
+      slopeAngleBC: 90.06801
+      distanceBC: 6.041577
+      pointB: {x: 35.55803, y: 8.09356}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 29.516457, y: 8.08639}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 19.34098, y: 6.0875926, z: 0}
+      m_Extent: {x: 10.16752, y: 0.0028214455, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.0159
+      distanceBC: 20.33504
+      pointB: {x: 29.5085, y: 6.090414}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 9.17346, y: 6.084771}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 48.94496, y: 8.087746, z: 0}
+      m_Extent: {x: 3.0716362, y: 0.0015673637, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.029236
+      distanceBC: 6.1432734
+      pointB: {x: 52.016598, y: 8.0893135}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 45.873325, y: 8.086179}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 92.662, y: -12.411, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 93.679, y: -12.411}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 91.645, y: -12.411}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 93.65651, y: 9.208923, z: 0}
+      m_Extent: {x: 3.0517082, y: 0.004609585, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.08655
+      distanceBC: 6.1034236
+      pointB: {x: 96.70822, y: 9.213532}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 90.604805, y: 9.204313}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 102.83769, y: 27.595379, z: 0}
+      m_Extent: {x: 4.0797844, y: 0.0057821274, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.9188
+      distanceBC: 8.159577
+      pointB: {x: 106.91748, y: 27.589598}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 98.75791, y: 27.601162}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.39494, y: 29.655727, z: 0}
+      m_Extent: {x: 16.3586, y: 0.00096416473, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.00338
+      distanceBC: 32.7172
+      pointB: {x: 98.75355, y: 29.65669}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 66.03635, y: 29.654762}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 65.041626, y: 27.974155, z: 0}
+      m_Extent: {x: 0.9848404, y: 0.00061893463, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.03601
+      distanceBC: 1.9696811
+      pointB: {x: 66.02647, y: 27.974775}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 64.056786, y: 27.973537}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 63.028114, y: 25.990082, z: 0}
+      m_Extent: {x: 1.0226955, y: 0.005188942, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.2907
+      distanceBC: 2.0454175
+      pointB: {x: 64.05081, y: 25.99527}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 62.00542, y: 25.984892}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 57.874794, y: 23.908258, z: 0}
+      m_Extent: {x: 4.1292706, y: 0.00040626526, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.00564
+      distanceBC: 8.258541
+      pointB: {x: 62.004066, y: 23.908665}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 53.745525, y: 23.907852}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -46.9255, y: 24.459, z: 0}
+      m_Extent: {x: 3.147501, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.295002
+      pointB: {x: -43.778, y: 24.459}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -50.073, y: 24.459}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 73.106, y: -16.197, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 74.123, y: -16.197}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 72.089, y: -16.197}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 90.583, y: -32.348, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 91.6, y: -32.348}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 89.566, y: -32.348}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 134.421, y: -15.963, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
+      pointB: {x: 137.52, y: -15.963}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 131.322, y: -15.963}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -1.5891008, y: 12.208412, z: 0}
+      m_Extent: {x: 13.713909, y: 0.0030117035, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.01259
+      distanceBC: 27.42782
+      pointB: {x: 12.124808, y: 12.211424}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -15.30301, y: 12.2054}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 19.828787, y: 13.210717, z: 0}
+      m_Extent: {x: 7.703978, y: 1.0025663, z: 0}
+    isClosed: 0
+    hierachyIndex: 2
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90.01027
+      distanceBC: 5.178581
+      pointB: {x: 27.532764, y: 12.209078}
+      linkIndex: 
+    - angleABC: 135.27959
+      slopeAngleBC: 45.289852
+      distanceBC: 2.850142
+      pointB: {x: 22.354183, y: 12.20815}
+      linkIndex: 
+    - angleABC: 135.23442
+      slopeAngleBC: 90.05542
+      distanceBC: 6.1823425
+      pointB: {x: 20.32866, y: 14.213284}
+      linkIndex: 
+    - angleABC: 135.42099
+      slopeAngleBC: 134.63445
+      distanceBC: 2.8407817
+      pointB: {x: 14.146319, y: 14.207303}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 12.124808, y: 12.211424}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 90.0225, y: -25.124, z: 0}
+      m_Extent: {x: 1.0175018, y: 0.005999565, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.66217
+      distanceBC: 2.035039
+      pointB: {x: 91.04, y: -25.13}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 89.005, y: -25.118}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 112.117004, y: 11.579, z: 0}
+      m_Extent: {x: 1.0320015, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.064003
+      pointB: {x: 113.149, y: 11.579}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 111.085, y: 11.579}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 112.102005, y: 30.713, z: 0}
+      m_Extent: {x: 1.0170021, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0340042
+      pointB: {x: 113.119, y: 30.713}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 111.085, y: 30.713}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.086, y: -8.841, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
+      pointB: {x: 85.185, y: -8.841}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 78.987, y: -8.841}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -59.375, y: 19.45, z: 0}
+      m_Extent: {x: 5.1520004, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 10.304001
+      pointB: {x: -54.223, y: 19.45}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -64.527, y: 19.45}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: -62.238, y: 12.24, z: 0}
+      m_Extent: {x: 3.0859985, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.171997
+      pointB: {x: -59.152, y: 12.24}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: -65.324, y: 12.24}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 45.243374, y: 0.020935535, z: 0}
+      m_Extent: {x: 14.276326, y: 1.0405428, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 89.97134
+      distanceBC: 24.507282
+      pointB: {x: 59.519703, y: 1.0492166}
+      linkIndex: 
+    - angleABC: 134.94864
+      slopeAngleBC: 135.0227
+      distanceBC: 2.9396727
+      pointB: {x: 35.012424, y: 1.0614783}
+      linkIndex: 
+    - angleABC: 135.0239
+      slopeAngleBC: 90.046585
+      distanceBC: 1.9675394
+      pointB: {x: 32.934586, y: -1.0180075}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 30.967047, y: -1.0196073}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 72.835, y: 1.189, z: 0}
+      m_Extent: {x: 1.0169983, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 2.0339966
+      pointB: {x: 73.852, y: 1.189}
+      linkIndex: 
+    - angleABC: 0
+      slopeAngleBC: 0
+      distanceBC: 0
+      pointB: {x: 71.818, y: 1.189}
+      linkIndex: 
+    serializableLinks: 0001000000ffffffff01000000000000000c020000000f417373656d626c792d4353686172700701000000000100000000000000040c494f66664e6f64654c696e6b020000000b
+  - bounds:
+      m_Center: {x: 82.086, y: 9.209, z: 0}
+      m_Extent: {x: 3.098999, y: 0, z: 0}
+    isClosed: 0
+    hierachyIndex: 0
+    verts:
+    - angleABC: 0
+      slopeAngleBC: 90
+      distanceBC: 6.197998
       pointB: {x: 85.185, y: 9.209}
       linkIndex: 
     - angleABC: 0
